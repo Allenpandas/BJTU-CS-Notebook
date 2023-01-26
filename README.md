@@ -14,10 +14,10 @@
 | OSDI-2023| USENIX Symposium on Operating Systems Design and Implementations| 软件工程/系统软件/程序设计语言| ~~2023.12.13~~  | [Call for papers](https://www.usenix.org/conference/osdi23) |
 | USENIX ATC-2023 | USENIX Annul Technical Conference | 计算机体系结构/并行与分布计算/存储系统 | ~~2023.1.12~~ | [Call for papers](https://www.usenix.org/conference/atc23) |
 | CSCW-2023 | ACM Conference on Computer Supported Cooperative Work and Social Computing | 人机交互与普适计算 | ~~2023.1.15~~ | [Call for papers](https://cscw.acm.org/2023/index.html) |
-| IJCAI-2023 | International Joint Conference on Artificial Intelligence | 人工智能 | 2023.1.18 | [Call for papers](https://ijcai-23.org/) |
-| ACL-2023 | Annual Meeting of the Association for Computational Linguistics | 人工智能 | 2023.1.20 | [Call for papers](https://2023.aclweb.org/)|
-| LICS-2023 | IEEE Symposium on Logic in Computer Science | 计算机科学理论 | 2023.1.23 | [Call for papers](https://lics.siglog.org/lics23/) |
-| SIGGRAPH-2023 | ACM SIGGRAPH Annual Conference | 计算机图形学与多媒体 | 2023.1.25 | [Call for papers](https://s2023.siggraph.org/)|
+| IJCAI-2023 | International Joint Conference on Artificial Intelligence | 人工智能 | ~~2023.1.18~~ | [Call for papers](https://ijcai-23.org/) |
+| ACL-2023 | Annual Meeting of the Association for Computational Linguistics | 人工智能 | ~~2023.1.20~~ | [Call for papers](https://2023.aclweb.org/)|
+| LICS-2023 | IEEE Symposium on Logic in Computer Science | 计算机科学理论 | ~~2023.1.23~~ | [Call for papers](https://lics.siglog.org/lics23/) |
+| SIGGRAPH-2023 | ACM SIGGRAPH Annual Conference | 计算机图形学与多媒体 | ~~2023.1.25~~ | [Call for papers](https://s2023.siggraph.org/)|
 | ICML-2023 | International Conference on Machine Learning | 人工智能 | 2023.1.26 | [Call for papers](https://icml.cc/Conferences/2023) |
 | SIGIR-2023 | International Conference on Research on Development in Information Retrieval | 数据库/数据挖掘/内容检索 |  2023.1.31  | [Call for papers](http://www.i-cav.org/2023/) |
 | SIGKDD-2023 | ACM Knowledge Discovery and Data Mining | 数据库/数据挖掘/内容检索 | 2023.2.2 | [Call for papers](https://kdd.org/kdd2023/) |
