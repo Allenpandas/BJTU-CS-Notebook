@@ -23,8 +23,8 @@
 ### 2.计算机网络
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
-| MobiCom | [ACM International Conference on Mobile Computing and Networking](https://www.sigmobile.org/mobicom/2023/) | 2023.3.17 |
-| SIGCOMM | ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication ||
+| MobiCom-2023 | [ACM International Conference on Mobile Computing and Networking](https://www.sigmobile.org/mobicom/2023/) | 2023.3.17 |
+| SIGCOMM-2023 | [ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication](https://conferences.sigcomm.org/sigcomm/2023/) |2023.2.15|
 | INFOCOM | IEEE International Conference on Computer Communications ||
 | NSDI | Symposium on Network System Design and Implementation ||
 
