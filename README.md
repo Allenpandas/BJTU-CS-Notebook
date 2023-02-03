@@ -19,7 +19,6 @@ table th:nth-of-type(3) {
     width: 50%;
 }
 </style>
-
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | USENIX ATC-2023 | [USENIX Annul Technical Conference](https://www.usenix.org/conference/atc23) | ~~2023.1.12~~ |
