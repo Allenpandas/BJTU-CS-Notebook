@@ -7,9 +7,9 @@
 本文整理了10个类别所有CC-FA类顶级会议的截稿日期，大家可以根据会议类别查询。
 
 ### 1.计算机体系结构/并行与分布计算/存储系统
-| 会议简称 | 会议名称 | 截稿日期 |
+| <span style="display:inline-block;width:300px">会议简称</span> | 会议名称 | 截稿日期 |
 |--|--|--|
-| <div style="width: 350pt">USENIX ATC-2023</div> | [USENIX Annul Technical Conference](https://www.usenix.org/conference/atc23) | ~~2023.1.12~~ |
+| USENIX ATC-2023 | [USENIX Annul Technical Conference](https://www.usenix.org/conference/atc23) | ~~2023.1.12~~ |
 | SC-2023 | [International Conference for High Performance Computing, Networking, Storage, and Analysis](https://sc23.supercomputing.org/) | 2023.4.20 |
 | PPoPP | ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming ||
 | FAST | Conference on File and Storage Technologies ||
