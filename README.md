@@ -29,7 +29,7 @@
 | NSDI | Symposium on Network System Design and Implementation ||
 
 ### 3.网络与信息安全
-| 序号 | 会议简称| 出版社 |
+| 序号 | 会议简称| 截稿日期 |
 |--|--|--|
 | S&P-2023 | [IEEE Symposium on Security and Privacy](https://www.ieee-security.org/TC/SP2023/) | ~~2022.12.2~~  |
 | Usenix Security-2023 | [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity23) | 2023.2.7 |
@@ -52,7 +52,7 @@
 | SOSP| ACM Symposium on Operating Systems Principles||
 | ASE| International Conference on Automated Software Engineering||
 | ICSE| International Conference on Software Engineering||
-| ==FM== | ==International Symposium on Formal Methods== ||
+| FM | International Symposium on Formal Methods ||
 
 ### 5.数据库/数据挖掘/内容检索
 | 会议简称 | 会议名称 | 截稿日期 |
@@ -68,18 +68,18 @@
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | LICS-2023 | [IEEE Symposium on Logic in Computer Science](https://lics.siglog.org/lics23/) | ~~2023.1.23~~ |
-| CAV-2023 | [Computer Aided Verification](http://www.i-cav.org/2023/) | 2023.2.3 |
+| CAV-2023 | [Computer Aided Verification](http://www.i-cav.org/2023/) | ~~2023.2.3~~ |
 | STOC | ACM Symposium on the Theory of Computing ||
 | SODA | ACM-SIAM Symposium on Discrete Algorithms ||
 | FOCS | IEEE Annual Symposium on Foundations of Computer Science ||
 
 ### 7.计算机图形学与多媒体
-| 会议简称 | 会议名称 | 截稿日期 |  链接 |
-|--|--|--|--|
-| SIGGRAPH-2023 | [ACM SIGGRAPH Annual Conference](https://s2023.siggraph.org/) | ~~2023.1.25~~ | [Call for papers](https://s2023.siggraph.org/)|
-| ACM MM | ACM International Conference on Multimedia |||
-| VR | IEEE Virtual Reality |||
-| IEEE VIS | IEEE Visualization Conference |||
+| 会议简称 | 会议名称 | 截稿日期 |
+|--|--|--|
+| SIGGRAPH-2023 | [ACM SIGGRAPH Annual Conference](https://s2023.siggraph.org/) | ~~2023.1.25~~ |
+| ACM MM | ACM International Conference on Multimedia ||
+| VR | IEEE Virtual Reality ||
+| IEEE VIS | IEEE Visualization Conference ||
 
 ### 8.人工智能
 | 会议简称 | 会议名称 | 截稿日期 |
