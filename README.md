@@ -9,7 +9,7 @@
 ### 1.计算机体系结构/并行与分布计算/存储系统
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
-| USENIX ATC-2023 | [USENIX Annul Technical Conference](https://www.usenix.org/conference/atc23) | ~~2023.1.12~~ |
+| USENIX ATC-2023 | <span style="display:inline-block;width:150px">[USENIX Annul Technical Conference](https://www.usenix.org/conference/atc23)</span> | ~~2023.1.12~~ |
 | SC-2023 | [International Conference for High Performance Computing, Networking, Storage, and Analysis](https://sc23.supercomputing.org/) | 2023.4.20 |
 | PPoPP | ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming ||
 | FAST | Conference on File and Storage Technologies ||
@@ -105,5 +105,5 @@
 ### 10.交叉/综合/新兴
 | 会议简称&emsp;&emsp; | 会议名称 | 截稿日期 |
 |--|--|--|
-| WWW | International World Wide Web Conferences||
+| WWW | <span style="display:inline-block;width:550px">International World Wide Web Conferences</span> ||
 | RTSS | Real-Time Systems Symposium||
