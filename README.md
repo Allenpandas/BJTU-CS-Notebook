@@ -98,8 +98,8 @@
 |--|--|--|
 | CSCW-2023 | [ACM Conference on Computer Supported Cooperative Work and Social Computing](https://cscw.acm.org/2023/index.html) | ~~2023.1.15~~ |
 | CHI | ACM Conference on Human Factors in Computing Systems ||
-| UbiComp | ACM International Conference on Ubiquitous Computing ||
-| UIST |  ACM Symposium on User Interface Software andTechnology ||
+| UbiComp-2023 | [ACM International Conference on Ubiquitous Computing](https://www.ubicomp.org/ubicomp-iswc-2023/) |2023.5.15|
+| UIST-2023 | [ACM Symposium on User Interface Software andTechnology](https://uist.acm.org/2023/) |2023.4.5|
 
 
 ### 10.交叉/综合/新兴
