@@ -79,9 +79,8 @@
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | SIGGRAPH-2023 | [ACM SIGGRAPH Annual Conference](https://s2023.siggraph.org/) | ~~2023.1.25~~ |
-| ACM MM | ACM International Conference on Multimedia ||
-| VR | IEEE Virtual Reality ||
-| IEEE VIS | IEEE Visualization Conference ||
+| IEEE VIS | [IEEE Visualization Conference](https://ieeevis.org/year/2023/welcome) | 2023.3.31 |
+| ACM MM | [ACM International Conference on Multimedia](https://www.acmmm2023.org/) |2023.4.30|
 
 ### 8.人工智能
 | 会议简称 | 会议名称 | 截稿日期 |
