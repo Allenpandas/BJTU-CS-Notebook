@@ -6,7 +6,7 @@
 
 本文整理了10个类别所有CCF-A类顶级会议的截稿日期，大家可以根据会议类别查询。
 
-最近更新时间：2023.2.7
+最近更新时间：2023.2.16
 
 ### 1.计算机体系结构/并行与分布计算/存储系统
 | 会议简称 | 会议名称 | 截稿日期 |
@@ -36,7 +36,7 @@
 | S&P-2023 | [IEEE Symposium on Security and Privacy](https://www.ieee-security.org/TC/SP2023/) | ~~2022.12.2~~  |
 | Usenix Security-2023 | [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity23) | ~~2023.2.7~~ |
 | CRYPTO-2023 | [International Cryptology Conference](https://crypto.iacr.org/2023/) | 2023.2.16 |
-| CCS | ACM Conference on Computer and Communications Security ||
+| CCS-2023 | [ACM Conference on Computer and Communications Security](https://www.sigsac.org/ccs/CCS2023/index.html) | 2023.5.4|
 | EUROCRYPT|European Cryptology Conference ||
 | NDSS | ISOC Network and Distributed System Security Symposium ||
 
@@ -47,7 +47,7 @@
 |--|--|--|
 | OSDI-2023 | [USENIX Symposium on Operating Systems Design and Implementations](https://www.usenix.org/conference/osdi23) | ~~2023.12.13~~  |
 | FSE/ESEC-2023 | [ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference](https://ieeecompsac.computer.org/2023/) | ~~2023.2.2~~ |
-| ISSTA-2023 | [International Symposium on Software Testing and Analysis](https://conf.researchr.org/home/issta-2023) | 2023.2.26 |
+| ISSTA-2023 | [International Symposium on Software Testing and Analysis](https://conf.researchr.org/home/issta-2023) | 2023.2.16 |
 | OOPSLA-2023 | [Conference on Object-Oriented Programming Systems, Languages, and Applications](https://2023.splashcon.org/track/splash-2023-oopsla) | 2023.4.14 |
 | PLDI| ACM SIGPLAN Conference on Programming Language Design & Implementation||
 | POPL| ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages||
@@ -61,7 +61,7 @@
 |--|--|--|
 | SIGIR-2023 | [International Conference on Research on Development in Information Retrieval](http://www.i-cav.org/2023) |  ~~2023.1.31~~  |
 | SIGKDD-2023 | [ACM Knowledge Discovery and Data Mining](https://kdd.org/kdd2023/) | ~~2023.2.2~~ |
-|VLDB|[International Conference on Very Large Data Bases](https://vldb.org/2023/)| 2023.3.1 |
+|VLDB-2023 | [International Conference on Very Large Data Bases](https://vldb.org/2023/)| 2023.3.1 |
 |SIGMOD |ACM Conference on Management of Data ||
 |ICDE|IEEE International Conference on Data Engineering||
 
@@ -71,16 +71,17 @@
 |--|--|--|
 | LICS-2023 | [IEEE Symposium on Logic in Computer Science](https://lics.siglog.org/lics23/) | ~~2023.1.23~~ |
 | CAV-2023 | [Computer Aided Verification](http://www.i-cav.org/2023/) | ~~2023.2.3~~ |
+| FOCS | [IEEE Annual Symposium on Foundations of Computer Science](https://focs.computer.org/2023/) | 2023.4.3 |
 | STOC | ACM Symposium on the Theory of Computing ||
 | SODA | ACM-SIAM Symposium on Discrete Algorithms ||
-| FOCS | IEEE Annual Symposium on Foundations of Computer Science ||
+
 
 ### 7.计算机图形学与多媒体
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | SIGGRAPH-2023 | [ACM SIGGRAPH Annual Conference](https://s2023.siggraph.org/) | ~~2023.1.25~~ |
-| IEEE VIS | [IEEE Visualization Conference](https://ieeevis.org/year/2023/welcome) | 2023.3.31 |
-| ACM MM | [ACM International Conference on Multimedia](https://www.acmmm2023.org/) |2023.4.30|
+| IEEE VIS-2023 | [IEEE Visualization Conference](https://ieeevis.org/year/2023/welcome) | 2023.3.31 |
+| ACM MM-2023 | [ACM International Conference on Multimedia](https://www.acmmm2023.org/) |2023.4.30|
 
 ### 8.人工智能
 | 会议简称 | 会议名称 | 截稿日期 |
