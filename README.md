@@ -6,7 +6,7 @@
 
 本文整理了10个类别所有CCF-A类顶级会议的截稿日期，大家可以根据会议类别查询。
 
-最近更新时间：2023.2.7
+最近更新时间：2023.2.16
 
 ### 1.计算机体系结构/并行与分布计算/存储系统
 | 会议简称 | 会议名称 | 截稿日期 |
@@ -25,7 +25,7 @@
 ### 2.计算机网络
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
-| SIGCOMM-2023 | [ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication](https://conferences.sigcomm.org/sigcomm/2023/) |2023.2.15|
+| SIGCOMM-2023 | [ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication](https://conferences.sigcomm.org/sigcomm/2023/) |~~2023.2.15~~|
 | MobiCom-2023 | [ACM International Conference on Mobile Computing and Networking](https://www.sigmobile.org/mobicom/2023/) | 2023.3.17 |
 | INFOCOM | IEEE International Conference on Computer Communications ||
 | NSDI | Symposium on Network System Design and Implementation ||
@@ -35,8 +35,8 @@
 |--|--|--|
 | S&P-2023 | [IEEE Symposium on Security and Privacy](https://www.ieee-security.org/TC/SP2023/) | ~~2022.12.2~~  |
 | Usenix Security-2023 | [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity23) | ~~2023.2.7~~ |
-| CRYPTO-2023 | [International Cryptology Conference](https://crypto.iacr.org/2023/) | 2023.2.16 |
-| CCS | ACM Conference on Computer and Communications Security ||
+| CRYPTO-2023 | [International Cryptology Conference](https://crypto.iacr.org/2023/) | ~~2023.2.16~~ |
+| CCS | [ACM Conference on Computer and Communications Security](https://www.sigsac.org/ccs/CCS2023/index.html) |2023.5.4|
 | EUROCRYPT|European Cryptology Conference ||
 | NDSS | ISOC Network and Distributed System Security Symposium ||
 
