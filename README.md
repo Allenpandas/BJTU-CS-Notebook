@@ -47,7 +47,7 @@
 |--|--|--|
 | OSDI-2023 | [USENIX Symposium on Operating Systems Design and Implementations](https://www.usenix.org/conference/osdi23) | ~~2023.12.13~~  |
 | FSE/ESEC-2023 | [ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference](https://ieeecompsac.computer.org/2023/) | ~~2023.2.2~~ |
-| ISSTA-2023 | [International Symposium on Software Testing and Analysis](https://conf.researchr.org/home/issta-2023) | 2023.2.16 |
+| ISSTA-2023 | [International Symposium on Software Testing and Analysis](https://conf.researchr.org/home/issta-2023) | ~~2023.2.16~~ |
 | OOPSLA-2023 | [Conference on Object-Oriented Programming Systems, Languages, and Applications](https://2023.splashcon.org/track/splash-2023-oopsla) | 2023.4.14 |
 | PLDI| ACM SIGPLAN Conference on Programming Language Design & Implementation||
 | POPL| ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages||
