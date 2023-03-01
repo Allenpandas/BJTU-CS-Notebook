@@ -61,7 +61,7 @@
 |--|--|--|
 | SIGIR-2023 | [International Conference on Research on Development in Information Retrieval](http://www.i-cav.org/2023) |  ~~2023.1.31~~  |
 | SIGKDD-2023 | [ACM Knowledge Discovery and Data Mining](https://kdd.org/kdd2023/) | ~~2023.2.2~~ |
-|VLDB-2023 | [International Conference on Very Large Data Bases](https://vldb.org/2023/)| 2023.3.1 |
+|VLDB-2023 | [International Conference on Very Large Data Bases](https://vldb.org/2023/)| ~~2023.3.1~~ |
 |SIGMOD |ACM Conference on Management of Data ||
 |ICDE|IEEE International Conference on Data Engineering||
 
@@ -90,8 +90,8 @@
 | ACL-2023 | [Annual Meeting of the Association for Computational Linguistics](https://2023.aclweb.org) | ~~2023.1.20~~ |
 | ICML-2023 | [International Conference on Machine Learning](https://icml.cc/Conferences/2023) | ~~2023.1.26~~ |
 | ICCV-2023 | [International Conference on Computer Vision](https://iccv2023.thecvf.com/) | 2023.3.8 |
+| NeurIPS-2023 | [Annual Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) | 2023.5.17 |
 | AAAI | AAAI Conference on Artificial Intelligence ||
-| NeurIPS | Annual Conference on Neural Information Processing Systems ||
 | CVPR | IEEE Conference on Computer Vision and Pattern Recognition ||
 
 
