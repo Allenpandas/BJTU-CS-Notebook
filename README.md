@@ -6,7 +6,7 @@
 
 本文整理了10个类别所有CCF-A类顶级会议的截稿日期，大家可以根据会议类别查询。
 
-最近更新时间：2023.3.1（更新NeurIPS）
+最近更新时间：2023.3.19（更新ICCV和MobiCom）
 
 ### 1.计算机体系结构/并行与分布计算/存储系统
 | 会议简称 | 会议名称 | 截稿日期 |
@@ -26,7 +26,7 @@
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | SIGCOMM-2023 | [ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication](https://conferences.sigcomm.org/sigcomm/2023/) |~~2023.2.15~~ |
-| MobiCom-2023 | [ACM International Conference on Mobile Computing and Networking](https://www.sigmobile.org/mobicom/2023/) | 2023.3.17 |
+| MobiCom-2023 | [ACM International Conference on Mobile Computing and Networking](https://www.sigmobile.org/mobicom/2023/) | ~~2023.3.17~~ |
 | INFOCOM | IEEE International Conference on Computer Communications ||
 | NSDI | Symposium on Network System Design and Implementation ||
 
