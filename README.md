@@ -6,7 +6,7 @@
 
 本文整理了10个类别所有CCF-A类顶级会议的截稿日期，大家可以根据会议类别查询。
 
-最近更新时间：2023.3.19（更新ICCV和MobiCom）
+最近更新时间：2023.4.3（更新FOCS）
 
 ### 1.计算机体系结构/并行与分布计算/存储系统
 | 会议简称 | 会议名称 | 截稿日期 |
@@ -71,7 +71,7 @@
 |--|--|--|
 | LICS-2023 | [IEEE Symposium on Logic in Computer Science](https://lics.siglog.org/lics23/) | ~~2023.1.23~~ |
 | CAV-2023 | [Computer Aided Verification](http://www.i-cav.org/2023/) | ~~2023.2.3~~ |
-| FOCS | [IEEE Annual Symposium on Foundations of Computer Science](https://focs.computer.org/2023/) | 2023.4.3 |
+| FOCS | [IEEE Annual Symposium on Foundations of Computer Science](https://focs.computer.org/2023/) | ~~2023.4.3~~ |
 | STOC | ACM Symposium on the Theory of Computing ||
 | SODA | ACM-SIAM Symposium on Discrete Algorithms ||
 
