@@ -48,7 +48,7 @@
 | OSDI-2023 | [USENIX Symposium on Operating Systems Design and Implementations](https://www.usenix.org/conference/osdi23) | ~~2023.12.13~~  |
 | FSE/ESEC-2023 | [ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference](https://ieeecompsac.computer.org/2023/) | ~~2023.2.2~~ |
 | ISSTA-2023 | [International Symposium on Software Testing and Analysis](https://conf.researchr.org/home/issta-2023) | ~~2023.2.16~~  |
-| OOPSLA-2023 | [Conference on Object-Oriented Programming Systems, Languages, and Applications](https://2023.splashcon.org/track/splash-2023-oopsla) | 2023.4.14 |
+| OOPSLA-2023 | [Conference on Object-Oriented Programming Systems, Languages, and Applications](https://2023.splashcon.org/track/splash-2023-oopsla) | ~~2023.4.14~~ |
 | PLDI| ACM SIGPLAN Conference on Programming Language Design & Implementation||
 | POPL| ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages||
 | SOSP| ACM Symposium on Operating Systems Principles||
@@ -80,7 +80,7 @@
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | SIGGRAPH-2023 | [ACM SIGGRAPH Annual Conference](https://s2023.siggraph.org/) | ~~2023.1.25~~ |
-| IEEE VIS-2023 | [IEEE Visualization Conference](https://ieeevis.org/year/2023/welcome) | 2023.3.31 |
+| IEEE VIS-2023 | [IEEE Visualization Conference](https://ieeevis.org/year/2023/welcome) | ~~2023.3.31~~ |
 | ACM MM-2023 | [ACM International Conference on Multimedia](https://www.acmmm2023.org/) |2023.4.30|
 
 ### 8.人工智能
@@ -99,7 +99,7 @@
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | CSCW-2023 | [ACM Conference on Computer Supported Cooperative Work and Social Computing](https://cscw.acm.org/2023/index.html) | ~~2023.1.15~~ |
-| UIST-2023 | [ACM Symposium on User Interface Software andTechnology](https://uist.acm.org/2023/) | 2023.4.5 |
+| UIST-2023 | [ACM Symposium on User Interface Software andTechnology](https://uist.acm.org/2023/) | ~~2023.4.5~~ |
 | UbiComp-2023 | [ACM International Conference on Ubiquitous Computing](https://www.ubicomp.org/ubicomp-iswc-2023/) |2023.5.15|
 | CHI | ACM Conference on Human Factors in Computing Systems ||
 
