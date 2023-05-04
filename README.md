@@ -6,13 +6,13 @@
 
 本文整理了10个类别所有CCF-A类顶级会议的截稿日期，大家可以根据会议类别查询。
 
-最近更新时间：2023.4.18（更新已过期的会议）
+最近更新时间：2023.5.4（更新已过期的会议）
 
 ### 1.计算机体系结构/并行与分布计算/存储系统
 | 会议简称 | 会议名称 | 截稿日期 |
 |--|--|--|
 | USENIX ATC-2023 | [USENIX Annul Technical Conference](https://www.usenix.org/conference/atc23) | ~~2023.1.12~~ |
-| SC-2023 | [International Conference for High Performance Computing, Networking, Storage, and Analysis](https://sc23.supercomputing.org/) | 2023.4.20 |
+| SC-2023 | [International Conference for High Performance Computing, Networking, Storage, and Analysis](https://sc23.supercomputing.org/) | ~~2023.4.20~~ |
 | PPoPP | ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming ||
 | FAST | Conference on File and Storage Technologies ||
 | DAC | Design Automation Conference ||
@@ -81,7 +81,7 @@
 |--|--|--|
 | SIGGRAPH-2023 | [ACM SIGGRAPH Annual Conference](https://s2023.siggraph.org/) | ~~2023.1.25~~ |
 | IEEE VIS-2023 | [IEEE Visualization Conference](https://ieeevis.org/year/2023/welcome) | ~~2023.3.31~~ |
-| ACM MM-2023 | [ACM International Conference on Multimedia](https://www.acmmm2023.org/) |2023.4.30|
+| ACM MM-2023 | [ACM International Conference on Multimedia](https://www.acmmm2023.org/) |~~2023.4.30~~|
 
 ### 8.人工智能
 | 会议简称 | 会议名称 | 截稿日期 |
