@@ -1,6 +1,6 @@
-# 科研要求
+# Academic-Research-Guidelines
 
-
+Academic-Research-Guidelines: 科研指南
 
 **科研工具篇：**
 
