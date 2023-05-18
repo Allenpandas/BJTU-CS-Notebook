@@ -45,3 +45,4 @@ Academic Conferences and Journals | 学术会议期刊列表
 | IEEE Transactions on Fuzzy Systems                           | 1063-6706 | An1  |
 | IEEE Transactions on Emerging Topics in Computational Intelligence | 2471-285X | An2  |
 | IEEE Transactions on Cognitive and Developmental Systems     | 2379-8920 | An3  |
+| IEEE Transactions on Emerging Topics in Computational Intelligence | 2471-285X | An2  |
