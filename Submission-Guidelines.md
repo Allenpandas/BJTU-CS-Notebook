@@ -1,6 +1,6 @@
-# Submission Guidelines
+# Submission-Guidelines
 
-Submission Guidelines: 投稿指南
+Submission-Guidelines: 投稿指南
 
 ## 目录
 

@@ -2,15 +2,24 @@
 
 Academic-Research-Guidelines: 科研指南
 
+## 目录
+
+- [征稿通知（Call For Papers）](./Call-For-Papers.md)
+- [投稿指南（Submission-Guidelines）](./Submission-Guidelines.md)
+- [学术会议列表（Academic-Conferences）](./Academic-Conferences.md)
+- [学术会议列表（Academic-Journals）](./Academic-Journals.md)
+
+
+
 **科研工具篇：**
 
-- 掌握常用的科研工具，如：Anaconda-Navigator、Xmind、Zotero、DBLP、知云文献翻译等。[[参考资料](https://blog.csdn.net/m0_38068876/article/details/127873013)]
 - 熟练使用 [Google Scholar](https://scholar.google.com/)、[DBLP](https://dblp.org/)、[arXiv](https://arxiv.org/) 等文献检索检索工具。能够熟练使用关键词、作者姓名、发表日期、论文题目、会议名称、等进行文献的筛选。[[参考资料](https://www.bilibili.com/video/BV1Rj411u7kw)]
 - 学会使用LaTeX作为论文撰写工具，**学术论文/学位论文均要求使用LaTeX进行撰写**。[[参考资料](https://blog.csdn.net/m0_38068876/category_10779337.html)]
 - 使用 [Zotero](https://www.zotero.org/) + [坚果云](https://www.jianguoyun.com/) 部署多设备的文献管理环境，文献要按类别进行存放。
 - 熟练使用 [LetPub](https://letpub.com.cn/) 或 [《中科院文献情报中心期刊分区表》](http://www.fenqubiao.com/Default.aspx) 等工具查询中科院SCI期刊分区表。[[参考资料](https://blog.csdn.net/m0_38068876/article/details/130719121)]
 - 熟练使用《中国计算机学会推荐的国际学术会议、期刊》查询会议、期刊的A/B/C等级。[[参考资料](https://blog.csdn.net/m0_38068876/category_11820954.html)]
 - 一律使用Anaconda-Navigator作为Python的开发工具。[[参考资料](https://blog.csdn.net/m0_38068876/article/details/128364154)]
+- 掌握常用的科研工具，如：Anaconda-Navigator、Xmind、Zotero、DBLP、知云文献翻译等。[[参考资料](https://blog.csdn.net/m0_38068876/article/details/127873013)]
 
 ---
 
