@@ -17,7 +17,6 @@ Academic-Journals | 学术期刊列表（自整理）
 | **[TR]** IEEE Transactions on Robotics                       | 1552-3098 |   An1   | CCF-B（交叉综合） |
 | **[TRE]** IEEE Transactions on Reliability                   | 0018-9529 |   An2   | CCF-C（交叉综合） |
 | **[TETCI]** IEEE Transactions on Emerging Topics in Computational Intelligence | 2471-285X |   An2   |         —         |
-| **[TETCI]** IEEE Transactions on Emerging Topics in Computational Intelligence | 2471-285X |   An2   |         —         |
 | **[TGCN]** IEEE Transactions on Green Communications and Networking | 2473-2400 |   An3   |         —         |
 | **[TCDS]** IEEE Transactions on Cognitive and Developmental Systems | 2379-8920 |   An3   |         —         |
 | **[TAI]** IEEE Transactions on Artificial Intelligence       | 2691-4581 |    —    |         —         |
