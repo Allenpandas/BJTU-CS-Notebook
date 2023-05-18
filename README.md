@@ -28,7 +28,8 @@ Academic-Research-Guidelines: 科研指南
   ```shell
   # author: Allenpandas
   # date: 2023-5-17
-  # desc: 配置Apollo6.0环境时，新增环境变量。
+  # desc: 配置redis3.2时，新增环境变量。
+  export PATH="/usr/local/opt/redis@3.2/bin:$PATH"
   ```
 
 - Python撰写的项目要求：
