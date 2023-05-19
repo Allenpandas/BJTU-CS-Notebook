@@ -28,6 +28,7 @@ Academic-Journals | 学术期刊列表（自整理）
 | 期刊名称                                                    |   ISSN    | 级别 |
 | ----------------------------------------------------------- | :-------: | :--: |
 | **[JSA]** Journal of Systems Architecture                   | 1383-7621 | An2  |
+| **[ESE]** Empirical Software Engineering                    | 1382-3256 | An2  |
 | **[JIS]** International Journal of Intelligent Systems      | 0884-8173 | An2  |
 | **[JISA]** Journal of Information Security and Applications | 2214-2126 | An3  |
 | **[JCST]** Journal of Computer Science and Technology       | 1000-9000 | An3  |
