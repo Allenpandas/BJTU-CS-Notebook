@@ -16,6 +16,7 @@ Academic Research Guidelines: 计算机小白科研入门快速教程
 
 ## 目录
 
+- [科研要求（Academic-Requirements）](./Academic-Requirements.md)
 - [征稿通知（Call For Papers）](./Call-For-Papers.md)
 - [投稿指南（Submission-Guidelines）](./Submission-Guidelines.md)
 - [学术会议列表（Academic-Conferences）](./Academic-Conferences.md)
@@ -24,6 +25,8 @@ Academic Research Guidelines: 计算机小白科研入门快速教程
 ---
 
 
+
+## 科研经验（自用）
 
 **科研工具篇：**
 

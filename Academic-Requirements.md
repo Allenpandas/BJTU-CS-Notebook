@@ -1,6 +1,6 @@
 # Academic Requirements
 
-Academic Requirements: 学术要求
+Academic Requirements: 科研要求
 
 
 
