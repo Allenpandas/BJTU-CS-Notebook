@@ -26,6 +26,7 @@ Academic Requirements: 科研要求
   - 本校升学的推免生，大四下学期需要修先修课，提前修研究生阶段的课程学分。
 - **科研工具：**
   - 熟练使用 [Google Scholar](https://scholar.google.com/)、[DBLP](https://dblp.org/)、[arXiv](https://arxiv.org/) 等文献检索检索工具。能够熟练使用关键词、作者姓名、发表日期、论文题目、会议名称、等进行文献的筛选。[[参考资料](https://www.bilibili.com/video/BV1Rj411u7kw)]
+  - 务必会使用chatGPT。借助此类工具可以协助大家构建知识体系、解决问题、润色文章等。
   - 学术论文/学位论文必须使用LaTeX进行撰写。[[参考资料](https://blog.csdn.net/m0_38068876/category_10779337.html)]
   - 一律使用Anaconda-Navigator作为复现Python代码的开发工具，必须使用Conda进行多环境管理，代码必须写注释、变更配置文件前必须备份、必须写说明文档。[[参考资料](https://blog.csdn.net/m0_38068876/article/details/128364154)]
   - 所有项目必须使用Git来进行代码版本管理，不限于gitee/github/gitlab等平台。
