@@ -16,7 +16,7 @@ Academic-Conferences | 学术会议列表
 | **[NeurIPS]** [Annual Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) | CCF-A | 人工智能 | ~~2023.05.17~~     |
 | **[Usenix Security'24 Summer]** [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity24/call-for-papers) | CCF-A | 网络安全 | 2024.06.06 |
 | **[AAAI]** [AAAI Conference on Artificial Intelligence](https://aaai.org/aaai-conference/) | CCF-A | 人工智能 | 2023.08.15 |
-| **[Usenix Security'24 Fall]** [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity24/call-for-papers) | CCF-A | 网络安全 | 2024.10.17 |
+| **[Usenix Security'24 Fall]** [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity24/call-for-papers) | CCF-A | 网络安全 | 2023.10.17 |
 | **[Usenix Security'24 Winter]** [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity24/call-for-papers) | CCF-A | 网络安全 | 2024.02.08 |
 
 
