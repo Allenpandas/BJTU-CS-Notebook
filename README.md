@@ -21,7 +21,7 @@ Academic Research Guidelines: 计算机小白科研入门快速教程
 - [投稿指南（Submission-Guidelines）](./Submission-Guidelines.md)
 - [学术会议列表（Academic-Conferences）](./Academic-Conferences.md)
 - [学术期刊列表（Academic-Journals）](./Academic-Journals.md)
-- [科研感悟（Insights-from-Research）](./Insights-from-Research)
+- [科研感悟（Insights-from-Research）](./Insights-from-Research.md)
 
 
 
