@@ -13,7 +13,6 @@ Academic-Conferences | 学术会议列表
 | **[ICML]** [International Conference on Machine Learning](https://icml.cc/Conferences/2023) | CCF-A | 人工智能 | ~~2023.01.26~~ |
 | **[Usenix Security]** [Usenix Security Symposium](https://www.usenix.org/conference/usenixsecurity23) | CCF-A | 网络安全 | ~~2023.02.07~~ |
 | **[ICCV]** [International Conference on Computer Vision](https://iccv2023.thecvf.com/) | CCF-A | 人工智能 | ~~2023.03.08~~ |
-| **[ICICS]** [International Conference on Information and Communications Security]() | CCF-C | 网络安全 | ~~2023.03.30~~ |
 | **[CCS]** [ACM Conference on Computer and Communications Security](https://www.sigsac.org/ccs/CCS2023/index.html) | CCF-A | 网络安全 | ~~2023.05.04~~ |
 | **[NeurIPS]** [Annual Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) | CCF-A | 人工智能 | ~~2023.05.17~~     |
 | **[AAAI]** [AAAI Conference on Artificial Intelligence](https://aaai.org/aaai-conference/) | CCF-A | 人工智能 | 2023.08.15 |
