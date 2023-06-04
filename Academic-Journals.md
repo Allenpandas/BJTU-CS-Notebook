@@ -25,15 +25,15 @@ Academic Journals | 学术期刊列表（自整理）
 
 ## 其他期刊
 
-| 期刊名称                                                     |   ISSN    | SCI级别 |      CCF分区      |
-| ------------------------------------------------------------ | :-------: | :-----: | :---------------: |
-| IEEE Internet of Things Journal                              | 2327-4662 |   An1   |                   |
-| **[JSA]** Journal of Systems Architecture                    | 1383-7621 |   An2   | CCF-B（体系结构） |
-| **[ESE]** Empirical Software Engineering                     | 1382-3256 |   An2   | CCF-B（软件工程） |
-| **[JIS]** International Journal of Intelligent Systems       | 0884-8173 |   An2   | CCF-C（人工智能） |
-| **[JISA]** Journal of Information Security and Applications  | 2214-2126 |   An3   |         —         |
-| **[JCST]** Journal of Computer Science and Technology        | 1000-9000 |   An3   | CCF-B（交叉综合） |
-| IEEE Transactions on Network Science and Engineering         | 2327-4697 |   An3   |                   |
-| Journal of Cloud Computing-Advances Systems and Applications | 2192-113X |   An3   |                   |
-| Sensors                                                      | 1424-8220 |   An3   |                   |
-| **[SCN]** Security and Communication Networks                | 1939-0114 |   An4   | CCF-C（网络安全） |
+| 期刊名称                                                     |   ISSN    | SCI级别 |       CCF分区       |
+| ------------------------------------------------------------ | :-------: | :-----: | :-----------------: |
+| **[IoTJ/IOT]** IEEE Internet of Things Journal               | 2327-4662 |   An1   | CCF-C（计算机网络） |
+| **[JSA]** Journal of Systems Architecture                    | 1383-7621 |   An2   |  CCF-B（体系结构）  |
+| **[ESE]** Empirical Software Engineering                     | 1382-3256 |   An2   |  CCF-B（软件工程）  |
+| **[JIS]** International Journal of Intelligent Systems       | 0884-8173 |   An2   |  CCF-C（人工智能）  |
+| **[JISA]** Journal of Information Security and Applications  | 2214-2126 |   An3   |          —          |
+| **[JCST]** Journal of Computer Science and Technology        | 1000-9000 |   An3   |  CCF-B（交叉综合）  |
+| IEEE Transactions on Network Science and Engineering         | 2327-4697 |   An3   |          —          |
+| Journal of Cloud Computing-Advances Systems and Applications | 2192-113X |   An3   |                     |
+| Sensors                                                      | 1424-8220 |   An3   |                     |
+| **[SCN]** Security and Communication Networks                | 1939-0114 |   An4   |  CCF-C（网络安全）  |
