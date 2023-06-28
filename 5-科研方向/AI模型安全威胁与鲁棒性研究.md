@@ -1,6 +1,6 @@
 AI模型安全威胁与鲁棒性研究
 
-**研究内容：** AI模型安全威胁与鲁棒性研究是指对**机器学习（Machine Learning）**、**深度学习（Deep Learning）**、**强化学习（Reinforcement Learning）**等模型在应用中可能遇到的安全威胁和鲁棒性问题进行研究，旨在提高模型的安全性，使其能够在现实世界中更可靠地应用。AI模型安全威胁与鲁棒性研究内容包括但不限于以下几个方向：
+**研究内容：** AI模型安全威胁与鲁棒性研究是指对**机器学习（Machine Learning）**、**深度学习（Deep Learning）**、**强化学习（Reinforcement Learning）** 等模型在应用中可能遇到的安全威胁和鲁棒性问题进行研究，旨在提高模型的安全性，使其能够在现实世界中更可靠地应用。AI模型安全威胁与鲁棒性研究内容包括但不限于以下几个方向：
 
 - **对抗性攻击与防御：** 关注通过对输入数据进行微小修改，以欺骗模型或导致其错误预测的对抗性攻击。这些攻击可能包括**对抗性样本**、**对抗性噪声**、**对抗性样式**等。研究针对对抗性攻击的防御机制，使得模型对这些攻击更具鲁棒性。
 - **鲁棒性评估：** 研究AI模型的评估方法和度量标准，以衡量模型对输入数据变化的鲁棒性。这些方法可以帮助识别模型在输入领域中的弱点，并指导鲁棒性改进的工作。
@@ -16,7 +16,7 @@ AI模型安全威胁与鲁棒性研究
 
 
 
-## 学术期刊/学术会议
+## 学术会议、期刊
 
 **学术会议：**
 
@@ -84,4 +84,3 @@ AI模型安全威胁与鲁棒性研究
 - **[2017-SOSP-BestPaper]** Kexin Pei, Yinzhi Cao, Junfeng Yang, Suman Jana. DeepXplore: Automated Whitebox Testing of Deep Learning Systems.(DeepXplore：深度学习系统的自动白盒测试) [[pdf](https://arxiv.org/abs/1705.06640)] [[code](https://github.com/peikexin9/deepxplore)]
 
   
-
