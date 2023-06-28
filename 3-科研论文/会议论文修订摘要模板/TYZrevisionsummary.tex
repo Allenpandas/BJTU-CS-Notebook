@@ -1,0 +1,252 @@
+\documentclass{amsart}
+
+%=================================================================
+% for comments
+\newcount\DraftStatus  % 0 suppresses notes to selves in text
+\DraftStatus=0   % TODO: set to 0 for final version
+%=================================================================
+\usepackage{color}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\definecolor{purple}{rgb}{1,0,1}
+% \draftnote{color}{comment} inserts a colored comment in the text
+\newcommand{\draftnote}[2]{\ifnum\DraftStatus=0
+    \marginpar{
+        \tiny\raggedright
+        \hbadness=10000
+        \def\baselinestretch{0.8}
+        \textcolor{#1}{\textsf{\hspace{0pt}#2}}}
+     \fi}
+% add yourself here:
+\newcommand{\wenjia}[1]{\draftnote{blue}{[WJN: #1]}}
+\newcommand{\gangli}[1]{\draftnote{darkgreen}{[GLi: #1]}}
+%other colors include blue, red, purple, cyan, darkgreen, etc.
+%=================================================================
+
+%=================================================================
+
+
+
+
+\usepackage{fancyhdr}
+
+
+%\usepackage[normal]{subfigure}
+% if you want to include PostScript figures
+% if you have landscape tables
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage[figuresright]{rotating}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{amssymb}
+\usepackage{footnpag}
+
+
+
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[RO,LE]{\slshape \rightmark}
+%\fancyhead[LO,RE]{\textbf{[Niu, Li~{et~al.}: Multi-Granularity Context Model]} }
+\fancyhead[CO,CE]{}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[CE,CO]{\thepage}
+%\fancyfoot[LO,LE]{R\svnfilerev\ (\svnday-\svnmonth-\svnyear\ \svnhour:\svnminute)}
+
+\setlength{\headheight}{12pt}
+\setlength{\footskip}{20pt}
+\setcounter{tocdepth}{4}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%=================================================================
+
+%=================================================================
+% for math notations
+% ----------------------------------------------------------------
+\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+% THEOREMS -------------------------------------------------------
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\theoremstyle{remark}
+\newtheorem{rem}[thm]{Remark}
+\numberwithin{equation}{section}
+% MATH -----------------------------------------------------------
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\BX}{\mathbf{B}(X)}
+% ----------------------------------------------------------------
+\newcommand{\I}{{\mathcal I}}
+\newcommand{\Id}{{\mathcal I} }
+\newcommand{\Dc}{{\mathcal D}}
+\newcommand{\J}{{\mathcal J}}
+\newcommand{\Dn}{{\mathcal D}_n}
+\newcommand{\Dd}{{\mathcal D}_n }
+\renewcommand{\P}{{\mathcal P}}
+\newcommand{\Nu}{{\mathcal N} }
+\newcommand{\B}{{\mathcal B}}
+\newcommand{\Bf}{{\bf B}}
+\newcommand{\Y}{{\bf Y}}
+\newcommand{\A}{{\mathcal A}}
+
+\newcommand{\V}{{\mathcal V}}
+\newcommand{\M}{{\mathcal M}}
+\newcommand{\F}{{\mathcal F}}
+\newcommand{\Fd}{{\mathcal F}}
+\newcommand{\BF}{{\mathcal BF}_n}
+\newcommand{\BFd}{{\mathcal BF}_n}
+\newcommand{\TF}{{\mathcal TF}_n}
+\newcommand{\TFd}{{\mathcal TF}_n}
+\newcommand{\G}{{\mathcal G}}
+\newcommand{\X}{{\mathcal X}}
+\newcommand{\E}{{\mathcal E}}
+\newcommand{\K}{{\mathcal K}}
+\newcommand{\T}{{\mathcal T}_n}
+\renewcommand{\H}{{\mathcal H}}
+
+\newtheorem{Remark}{Remark}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+%\renewcommand{\thetheorem}{\arabic{theorem}}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+%\renewcommand{\thelemma}{\arabic{lemma}}
+%\renewcommand{\thecorollary}{\arabic{corollary}}
+\newtheorem{example}{Example}
+%\renewcommand{\theexample}{\arabic{example}}
+\newtheorem{definition}{Definition}
+%\renewcommand{\thedefinition}{\arabic{definition}}
+\newtheorem{Algorithms}{Algorithm}
+
+\newcommand{\bu}{{\mathbf 1} }
+\newcommand{\bo}{{\mathbf 0} }
+\newcommand{\N}{\mbox{{\sl l}}\!\mbox{{\sl N}}}
+
+
+\newcommand{\rb}[1]{\raisebox{1.5ex}[0pt]{#1}}
+
+\def\uint{[0,1]}
+\def\proof{{\scshape Proof}. \ignorespaces}
+\def\endproof{{\hfill \vbox{\hrule\hbox{%
+   \vrule height1.3ex\hskip1.0ex\vrule}\hrule
+  }}\par}
+%=================================================================
+\renewcommand\theparagraph{\roman{paragraph}}
+%=================================================================
+% general packages
+\usepackage{graphicx,color}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usepackage{amsmath, amssymb}
+\usepackage{breqn}
+
+\usepackage{multirow}
+
+\usepackage{subfig}
+\usepackage{cite}
+\usepackage{url}
+
+
+
+
+%=================================================================
+\begin{document}
+
+%=================================================================
+% Preamble which will need to be changed for submission
+%
+
+\setlength{\parskip}{.5cm}
+
+\title[Revision Summary]
+{Revision Summary}%
+
+\maketitle
+
+We are grateful to receive your constructive and valuable comments,
+which have helped us improve the overall quality of the paper.
+
+In this revision,
+we have made significant changes according to the suggestions:
+
+\begin{itemize}
+\item We reorganize the whole paper, including expanding the section ``Related Work’’ with comparison with previous work, adding new subsection ``Threat Model’’in section ``Backgrounds'', adding comparison of similar methods with two former work in section ``Evaluation'', and adding new section ``Defense Discussion'' to discuss the relationship between the evaluation metric and defense.
+\item We unify font size and color in Figure 3 and Figure 5, modify symbols in Figure 4 and revise corresponding description to achieve better presentation and understanding.
+\item We go through the whole manuscript carefully to make necessary revision for improving the writing quality.
+\end{itemize}
+
+The following are our point-to-point responses to the reviewers' comments.
+
+\section*{Reviewer~\#1}
+
+We would like to thank you for your positive comments.
+
+
+\section*{Reviewer~\#2}
+
+\emph{$\checkmark$ $1$. The authors should give some related works and compare the scheme with the previous works.}
+
+\textbf{Our Response}: Thanks for your valuable suggestions. In this version, we further add three more related work for comparison so as to enrich the section ``Related Work’’. Compared to traditional traffic feature and other self-defined feature-based methods, our approach that adopts phase-based image feature is distinguished and focuses on I-SIG security analysis. The detailed revisions are listed as follows.
+
+``Trafﬁc congestion prediction has been studied a lot. Traditional traffic feature-based methods [29-31] are generally used in traffic congestion prediction, in which the traffic scenario is usually illustrate by manually-set features such as location, speed, delay of vehicle. Early researches are focused on single site prediction based on one-dimensional trafﬁc time series such as the ARIMA model [19] and the nearest neighbour method [20]. Recently, the trend has been shifted to prediction based on spatial temporal correlations between trafﬁc ﬂows [21-23], for instance, the vector ARMA model incorporating both spatial and temporal correlations, and the spatial econometrics models focused on congestion propagation over adjacent links. The core of the existing methods is: They try to predict trafﬁc congestions at one site based on the spatially and temporally correlated information from the sensors distributed on nearby roads, where the number of such sensors contributing to the prediction is referred to as data dimensionality. Recently, a LSTM model-based approach [24] was proposed for region-wide congestion prediction. In comparison, the attack-based congestion prediction is totally different and it is because that any classical traffic flow-related theory of spatial and temporal correlation does not well fit. Thus, this work does not focus on traditional traffic features. Even for image feature, we perform phase-based reprocessing and produce novel image for training, this is a different method for I-SIG congestion prediction towards COP attack.''
+
+
+\emph{$\checkmark$ $2$. What's the threat model?}
+
+\textbf{Our Response}:
+In the revision, we add a new subsection ``Threat Model’’ in section ``Backgrounds'', in which we describe our threat model in detail. The revisions are listed as follows.
+
+``In I-SIG congestion attack, there is a threat model which characterizes the spoofing attack as input, the congestion as output, and studies corresponding causal relation. Based on the attack goal of creating congestion in the intersection, the data spoofing attack has been experimentally proved feasible on CV-based intelligent transportation system. As shown in Fig. 1, dataflow of the I-SIG system involves data from both vehicle-side devices (the OBUs) and infrastructure-side device (RSUs and signal controllers). B. Ghena et al. [26] has pointed out the weakness of the infrastructure-side device. In comparison, without considering the weakness of the infrastructure-side device, we aim to realize attack from vehicle-side devices (the OBUs), in which the attacker sends malicious BSM messages to the OBUs to disrupt signal plan.''
+
+``More specifically, we focus on single intersection and the attacker is able to run the ISIG system on a personal computer with a general configuration. Assuming that the attacker has a prior investigation of the system structure and road conditions, after obtaining a set of BSM messages, the attacker can run the I-SIG system to get the prior and subsequent signal planning by COP algorithm. To maximize the realism of the threat model, we mainly explore the effectiveness of attack by a single attack vehicle which is a challenging task as the signal planning of the I-SIG system based on all vehicles in an intersection.''
+
+
+\emph{$\checkmark$ $3$. The font size is too small in some figures, such as Figure 3.}
+
+\textbf{Our Response}:
+Thanks for your suggestions. In this revision, we unify the font size in Figure 3 to make it clearer.
+
+
+\emph{$\checkmark$ $4$. There are not X and Y in Figure 4. Please amend that in the figure or the description in line 159.}
+
+\textbf{Our Response}: Many thanks to your raising this issue. We modify symbols in Figure 4 and revise corresponding description to achieve better presentation and understanding. The revised description is listed as follows.
+
+``Fig. 4 illustrates the architecture of CycleGAN framework. One training sample is a pair of images $x$ and $y$ to form $(x,y)$, $x \in X$ and $y \in Y$. Here, $X$ and $Y$ denote the source domain and target domain of the framework, $x$ refers to the processed trafﬁc image at the spooﬁng time, and $y$ is the processed trafﬁc image of congestion 30 minutes later that corresponds to $x$.''
+
+
+\emph{$\checkmark$ $5$. The font color in Figure 5 is too light.}
+
+\textbf{Our Response}:
+ Many thanks to your raising this issue. We adjust the font color in Figure 5 to make it clearer.
+
+
+\emph{$\checkmark$ $6$. In the evaluation, please give some comparison with the previous works.}
+
+\textbf{Our Response}:
+Thanks for your valuable suggestions. We add a comparison of similar methods with two former work in section ``Evaluation'', and discuss the differences between our work and former work. The detailed comparison is listed as follows.
+
+``Actually, our method can be directly compared to NDSS2018's work for the same I-SIG system. In addition, there are also some similar work to discuss. Reporting road traffic congestion can be challenging as there is no standard way of measurement fit for each specific occasion. A series of methods have been proposed to evaluate traffic congestion. Jia Lu et al. [27], proposed a method based in which level of congestion is considered as a continuous variable from free flow to traffic jam, since the source domain and the target domain of our visualized prediction method are both composed of traffic images, it is hard to extract the high-level image features using traditional text features such as location, speed and delay of vehicles. Panita Pongpaibool et al. [28], proposed a method based on deep network using image processing technology to deal with the whole image. In comparison, we aim to explore the effectiveness of different attack strategies which need an accurate analyze on each phase instead of the whole region, the former traditional methods are not suitable. Thus, we propose a phase-based evaluation method to quantitatively analyze the congestion results. We first define the evaluation metrics and we further evaluate them based on the mean absolute error (MAE) and root mean squared error (RMSE) respectively.''
+
+
+\emph{$\checkmark$ $7$. In the quantitative analysis, what is the relationship between the evaluation metric and the defence of attack?}
+
+\textbf{Our Response}:
+Thank you for raising this issue. We add new section ``Defense Discussion'' to discuss the relationship between the evaluation metric and defense, in which we bring out suggestions on defense from two perspectives. The new section we added are listed as follows.
+
+``For the relationship between the evaluation metric and the defence of attack, we have the following suggestions.''
+
+``\textbf{A.Attack strategy detection.} In the signal planning stage of I-SIG system, the COP algorithm generates reasonable green light duration based on the queuing length of each phase that estimated by the EVLS algorithm. As shown in our evaluation, vehicle capacity ratio (CR) reflects the total number of the intersection. In the significance of defense, comparing the estimated queuing length by EVLS with the immediate evaluation metric CR is an efficient way to determine whether the attack vehicle is placed in corresponding phase. For instance, if the phase has long estimate queuing line with low CR index, a last-vehicle attack may occur; on the contrary, if the phase has small estimate queuing line with high CR index, a first-vehicle attack may occur. This can bring feasible defense and improve system robustness.''
+
+``\textbf{B.Robust algorithm design.} As the CV-based intelligent transportation system are proved to be vulnerable to data spoofing attack, a notable problem is the lack of data check in the EVLS algorithm. For defense, a validity check procedure should be added to improve robustness of the algorithm, in which suspicious data will be excluded from the arrival table. e.g., removing the vehicle at the end of the queuing line to defense the detected last-vehicle attack. Considering the long-term application of the CV-based intelligent transportation system, this is a future direction.''
+
+
+\end{document}
