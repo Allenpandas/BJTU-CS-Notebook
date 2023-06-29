@@ -1,0 +1,2 @@
+print("*", end="")
+print("*")
