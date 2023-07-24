@@ -45,7 +45,7 @@ Call For Papers: 本仓库记录自己感兴趣（或者未来想投递的）的
 
 8. **Special Issue "Privacy-Preserving Technologies for Large-scale Artificial Intelligence"**
 
-    - **信息来源：**鹏城实验室 Prof. Jing Qiu
+    - **信息来源：** 鹏城实验室 Prof. Jing Qiu
     - **截稿日期：** 2023年12月15日
 
 ## 信息来源
@@ -53,5 +53,4 @@ Call For Papers: 本仓库记录自己感兴趣（或者未来想投递的）的
 - IEEE计算机协会CFP列表：https://www.computer.org/publications/author-resources/calls-for-papers 
 - CSDN社区CCF-A会议截稿日期：https://blog.csdn.net/m0_38068876/article/details/128409547
 - CCF会议截稿日期：https://ccfddl.github.io/
-
 
