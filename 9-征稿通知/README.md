@@ -4,10 +4,10 @@ Call For Papers: 本仓库记录自己感兴趣（或者未来想投递的）的
 ## CFP列表
 
 1. **Privacy and Security for IoT Devices专刊**
-        - **信息来源：** https://www.mdpi.com/journal/electronics/special_issues/1814886TYC
-        - **截稿日期：** 2023年9月30日
-        - **征稿范围：** 物联网设备安全相关
-        - **备注：** Electronics期刊：中科院3区（大类3区、小类4区），影响因子2.69
+    - **信息来源：** https://www.mdpi.com/journal/electronics/special_issues/1814886TYC
+    - **截稿日期：** 2023年9月30日
+    - **征稿范围：** 物联网设备安全相关
+    - **备注：** Electronics期刊：中科院3区（大类3区、小类4区），影响因子2.69
 
 2. **Special Issue "New Insights and Perspectives in Cyber and Information Security"**
 
