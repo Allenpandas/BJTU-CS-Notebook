@@ -12,7 +12,6 @@ Call For Papers: 本仓库记录自己感兴趣（或者未来想投递的）的
 2. **Special Issue "New Insights and Perspectives in Cyber and Information Security"**
 
    - **信息来源：** https://www.mdpi.com/journal/applsci/special_issues/8S3FU223IN
-
    - **截稿日期：** 2023年9月30日
    - **征稿范围：** 人工智能安全与隐私、各种应用程序和场景的安全框架等
    - **备注：** Applied Sciences-Basel（中科院4区）
