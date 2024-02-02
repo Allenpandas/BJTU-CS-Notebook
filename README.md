@@ -24,6 +24,8 @@
 | M602008B | 强化学习前沿理论与技术 | 林友芳/吕凯 | 秋季学期 |   博   | :blue_book: | :page_facing_up: | :white_check_mark: |
 | M502018B |       区块链技术       |  李超/段莉  | 春季学期 |   硕   |             |                  |                    |
 | C308101B |       随机过程I        | 理学院教师  | 秋季学期 | 硕、博 | :blue_book: |                  |                    |
+| M602027B |        专题研讨        |   刘吉强    | 春季学期 |   博   |             |                  | :white_check_mark: |
+| C402023B |      学术能力进阶      |   魏云超    | 秋季学期 |   博   |             | :page_facing_up: | :white_check_mark: |
 
 
 
