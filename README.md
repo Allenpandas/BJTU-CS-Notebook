@@ -25,7 +25,7 @@
 | M502047B |  数据仓库与大数据工程  | 林友芳/任爽 | 春季学期 |  硕  | :page_facing_up: | :page_facing_up: | :white_check_mark: |
 | M602032B |    网络空间安全前沿    |   王伟等    | 秋季学期 |  博  |                  |                  | :white_check_mark: |
 | C402023B |      学术能力进阶      |   魏云超    | 秋季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
-|          |      学术能力写作      |   韦世奎    | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
+|          |      学术能力写作      |   韦世奎/余贶禄    | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
 | M602027B |        专题研讨        |   刘吉强    | 春季学期 |  博  |                  |                  | :white_check_mark: |
 |          |        专业英语        |    张喆     | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
 |          |       自然辩证法       |  马院教师   | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
@@ -61,5 +61,5 @@
 
 本项目仅供学习交流帮助大家学习备考，资源来自于用户和互联网，其正确性不做保证。
 
-本仓库的资源默认采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，有特别说明的除外。
+本仓库的资源默认采用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 进行许可，有特别说明的除外。
 
