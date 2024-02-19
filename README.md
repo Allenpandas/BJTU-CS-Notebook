@@ -27,19 +27,19 @@
 
 本仓库中收录的所有科目及资料目录：
 
-| 课程编号 |        课程名称        |  任课教师   | 开设学期 | 类型 |       课件       |       作业       |      期末资料      |
-| :------: | :--------------------: | :---------: | :------: | :--: | :--------------: | :--------------: | :----------------: |
-|          |   高级软件开发与实践   |  黄华/韩升  | 夏季学期 |  硕  |                  | :page_facing_up: |                    |
-| M602003B |     计算机工程前沿     |  方维维等   | 春季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
-| M602008B | 强化学习前沿理论与技术 | 林友芳/吕凯 | 秋季学期 |  博  |   :blue_book:    | :page_facing_up: | :white_check_mark: |
-| C402011B |  时间序列数据分析挖掘  |   赵守国    | 春季学期 |  硕  |                  | :page_facing_up: |                    |
-| M502047B |  数据仓库与大数据工程  | 林友芳/任爽 | 春季学期 |  硕  | :blue_book: | :page_facing_up: | :white_check_mark: |
-| M602032B |    网络空间安全前沿    |   王伟等    | 秋季学期 |  博  |                  |                  | :white_check_mark: |
-| C402023B |      学术能力进阶      |   魏云超    | 秋季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
-|          |      学术能力写作      |   韦世奎/余贶禄    | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
-| M602027B |        专题研讨        |   刘吉强    | 春季学期 |  博  |                  |                  | :white_check_mark: |
-|          |        专业英语        |    张喆     | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
-|          |       自然辩证法       |  马院教师   | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
+| 课程编号 |        课程名称        | 开设学期 | 类型 |       课件       |       作业       |      期末资料      |
+| :------: | :--------------------: | :------: | :--: | :--------------: | :--------------: | :----------------: |
+|          |   高级软件开发与实践   | 夏季学期 |  硕  |                  | :page_facing_up: |                    |
+| M602003B |     计算机工程前沿     | 春季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
+| M602008B | 强化学习前沿理论与技术 | 秋季学期 |  博  |   :blue_book:    | :page_facing_up: | :white_check_mark: |
+| C402011B |  时间序列数据分析挖掘  | 春季学期 |  硕  |                  | :page_facing_up: |                    |
+| M502047B |  数据仓库与大数据工程  | 春季学期 |  硕  | :blue_book: | :page_facing_up: | :white_check_mark: |
+| M602032B |    网络空间安全前沿    | 秋季学期 |  博  |                  |                  | :white_check_mark: |
+| C402023B |      学术能力进阶      | 秋季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
+|          |      学术能力写作      | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
+| M602027B |        专题研讨        | 春季学期 |  博  |                  |                  | :white_check_mark: |
+|          |        专业英语        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
+|          |       自然辩证法       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
 
 **待整理清单：**
 
