@@ -40,6 +40,7 @@
 | M602027B |        专题研讨        | 春季学期 |  博  |                  |                  | :white_check_mark: |
 |          |        专业英语        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
 |          |       自然辩证法       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
+| | 知识产权 | 秋季学期 | 硕 | :blue_book: | | :white_check_mark: |
 
 **待整理清单：**
 
