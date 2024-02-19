@@ -41,6 +41,7 @@
 |          |        专业英语        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
 |          |       自然辩证法       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
 | | 知识产权 | 秋季学期 | 硕 | :blue_book: | | :white_check_mark: |
+| | 区块链技术 | 春季学期 | 硕 | :blue_book: | :page_facing_up: | :white_check_mark: |
 
 **待整理清单：**
 
@@ -48,7 +49,6 @@
 * [ ] 智能计算数学
 * [ ] 机器学习
 * [ ] 高级软件测试技术
-* [ ] 知识产权
 * [ ] 中国特色社会主义道路
 * [ ] 工程伦理
 * [ ] 区块链技术
