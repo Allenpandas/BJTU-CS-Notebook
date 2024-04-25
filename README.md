@@ -29,20 +29,20 @@
 
 | 课程编号 |        课程名称        | 开设学期 | 类型 |       课件       |       作业       |      期末资料      |
 | :------: | :--------------------: | :------: | :--: | :--------------: | :--------------: | :----------------: |
-| M502034B |   高级软件开发与实践   | 暑假小学期 |  硕  |                  | :page_facing_up: |                    |
-| M602003B |     计算机工程前沿     | 春季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
-| M602008B | 强化学习前沿理论与技术 | 秋季学期 |  博  |   :blue_book:    | :page_facing_up: | :white_check_mark: |
-| C402011B |  时间序列数据分析挖掘  | 春季学期 |  硕  |                  | :page_facing_up: |                    |
-| M502047B |  数据仓库与大数据工程  | 春季学期 |  硕  | :blue_book: | :page_facing_up: | :white_check_mark: |
-| M602032B |    网络空间安全前沿    | 秋季学期 |  博  |                  |                  | :white_check_mark: |
-| C402023B |      学术能力进阶      | 秋季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
-|          |      学术能力写作      | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
-| M602027B |        专题研讨        | 春季学期 |  博  |                  |                  | :white_check_mark: |
-|          |        专业英语        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
-|          |       自然辩证法       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
-| | 知识产权 | 秋季学期 | 硕 | :blue_book: | | :white_check_mark: |
-| M502018B/C402001B | 区块链技术 | 春季学期 | 硕 | :blue_book: | :page_facing_up: | :white_check_mark: |
-| M502023B | 机器学习 | 秋季学期 | 硕 | :blue_book: | :page_facing_up: |  |
+| M502034B |   [高级软件开发与实践](./研究生课程资料/高级软件开发与实践)   | 暑假小学期 |  硕  |                  | :page_facing_up: |                    |
+| M602003B |     [计算机工程前沿](./研究生课程资料/计算机工程前沿)     | 春季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
+| M602008B | [强化学习前沿理论与技术](./研究生课程资料/强化学习前沿理论与技术) | 秋季学期 |  博  |   :blue_book:    | :page_facing_up: | :white_check_mark: |
+| C402011B |  [时间序列数据分析挖掘](./研究生课程资料/时间序列数据分析挖掘)  | 春季学期 |  硕  |                  | :page_facing_up: |                    |
+| M502047B |  [数据仓库与大数据工程](./研究生课程资料/数据仓库与大数据工程)  | 春季学期 |  硕  | :blue_book: | :page_facing_up: | :white_check_mark: |
+| M602032B |    [网络空间安全前沿](./网络空间安全前沿)    | 秋季学期 |  博  |                  |                  | :white_check_mark: |
+| C402023B |      [学术能力进阶](./研究生课程资料/学术能力进阶)      | 秋季学期 |  博  |                  | :page_facing_up: | :white_check_mark: |
+|          |      [学术能力写作](./研究生课程资料/学术能力写作)      | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
+| M602027B |        [专题研讨](./研究生课程资料/专题研讨)        | 春季学期 |  博  |                  |                  | :white_check_mark: |
+|          |        [专业英语](./研究生课程资料/专业英语)        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
+|          |       [自然辩证法](./研究生课程资料/自然辩证法)       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
+| | [知识产权](./研究生课程资料/知识产权) | 秋季学期 | 硕 | :blue_book: | | :white_check_mark: |
+| M502018B/C402001B | [区块链技术](./研究生课程资料/区块链技术) | 春季学期 | 硕 | :blue_book: | :page_facing_up: | :white_check_mark: |
+| M502023B | [机器学习](./研究生课程资料/机器学习) | 秋季学期 | 硕 | :blue_book: | :page_facing_up: |  |
 | M502019B | 深度学习 |  | （待更新） |  |  | |
 | C402017B | 智能计算数学基础 |  | （待更新） |  |  | |
 |  | 高级软件测试技术 |  | （待更新） |  |  | |
