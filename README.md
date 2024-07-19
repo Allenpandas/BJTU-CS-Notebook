@@ -60,7 +60,7 @@
 
 - [北京交通大学计算机学院博士申请经验专栏（含计科、网安、信通、控制、软工、信安、量子技术等专业）](https://blog.csdn.net/m0_38068876/category_11810865.html)
 - [北京交通大学研究生院官网](https://gs.bjtu.edu.cn/)
-- [北京交通大学计算机学院官网（旧版，已下线）](https://scit.bjtu.edu.cn/)
+- [~~北京交通大学计算机学院官网（旧版，已下线）~~](https://scit.bjtu.edu.cn/)
 - [北京交通大学计算机学院官网（新版）](https://cs.bjtu.edu.cn/)
 - [北京交通大学研究生导师在线（计算机学院导师一览表）](https://aa.bjtu.edu.cn/discipline/tutor_show/?college=02)
 
