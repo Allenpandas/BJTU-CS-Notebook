@@ -1,0 +1,431 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{cite}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+
+
+\begin{document}
+
+\title{Astroturfing Detection and Analysis: A Literature Review}
+
+\author{
+XXX*
+
+        % <-this % stops a space
+\thanks{This paper was produced by the IEEE Publication Technology Group. They are in Piscataway, NJ.}% <-this % stops a space
+\thanks{Manuscript received October 1, 2022; revised October 5, 2022.
+(\emph{Corresponding author: XXX})
+}
+\thanks{XXX is with the Beijing Jiaotong University, Beijing 100044, China (e-mail: XXX@bjtu.edu.cn).}
+}
+
+
+
+% The paper headers
+\markboth{Journal of \LaTeX\ Class Files,~Vol.~14, No.~8, August~2022}%
+{Shell \MakeLowercase{\textit{et al.}}: A Sample Article Using IEEEtran.cls for IEEE Journals}
+
+\maketitle
+
+%Abstract%
+\begin{abstract}
+With the development of Internet, user comments produced unprecedented impact on information acquisition, goods purchase and other aspects. For example, user comments can quickly make a topic become the focus of discussion in social networks, it can promote the sales of goods in e-commerce and it can influence the ratings of books, movies or albums. Among these network applications and services, “astroturfing”, a kind of online suspicious behavior, can generate abnormal, damaging, even illegal behaviors in cyberspace, which mislead the public perception and bring a bad effect on both Internet users and society. Thus, how to detect and combat the astroturfing behavior becomes highly urgent, which draws lots of interests from both information technology and sociology researchers. In this paper, we restudy it mainly from the information technology perspective, summarize the latest research results of astroturfing detection, analysis the astroturfing feature, classify the machine learning-based detection methods and evaluation criteria and introduce the main applications. Different from previous survey, we also discuss new future direction of astroturfing detection, such as cross-domain astroturfing detection and user privacy protection.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Astroturing, online suspicious behavior, astroturfing detection, machine learning.
+\end{IEEEkeywords}
+
+
+
+%Introduction%
+\section{Introduction}
+\IEEEPARstart{W}{ith} the rapid development of Internet, more and more people are communicating with each other through network applications and services. Recently, the vigorous development of e-commerce, especially the emergence of the social network, such as Facebook, Twitter, Wechat and Weibo, produced unprecedented significant impact on the way that people work, social contact, information acquisition and goods purchase. Among these network applications and services, astroturfing, a kind of suspicious online behavior, is widely existing, which mostly appears in business and politics events. That is because the truth that an individual impression on a particular subject are often influenced by others\textquoteright  opinions\cite{Kelman1958Compliance}. Accordingly, the attitude or opinions of online users are easily influenced by other users.
+Several recent breaking news are exposed to show the distinct evidence for astroturfing. In October 2010, Mengniu, the dairy products company, hired astroturf organizations to harm the reputation of their competitor Yili, another dairy products company, which has been widespread concerned in society. It has also been reported that a group of astroturfing could launch well-coordinated attacks, and generate positive or negative opinions to attract public attention or trigger curiosity. Such a practice is referred to as ``cyber-gossip'', which can mislead the public, and put the competing business at serious risk.
+In October 2015, Amazon sued the 1114 ``Internet Water Army'', accusing them of providing inveracious reviews for goods and services on Amazon.com, which was in violation of the laws of the United States \cite{45953838_0-web}.
+In April 2016, a technology social networking site in U.S. announced that the ``Internet Water Army'' on twitter become a secret weapon during the US presidential election \cite{doc-ifxrcizu4121450-web}.
+We can see that, the astroturfing still makes a worldwide development in a fast speed.
+
+Obviously, astroturfing can generate abnormal, damaging, even illegal behaviors in cyberspace, which may mislead the public perception and bring a bad effect on both Internet users and society. Unfortunately, it is very difficult for users to aware the astroturfing and distinguish truth from falsehood. Thus, how to detect and combat the astroturfing
+behavior becomes very urgent, which draws lots of interests from both IT and sociology researchers.
+In this work, we will study it mainly from the IT perspective rather than sociology perspective. In other words, to design algorithms to detect online astroturfing effectively and help users identify potential online astroturfers quickly, is our main focus.
+
+Unfortunately, as a kind of suspicious online behaviors, astroturfing, has so much close relation and easily-confused differences with other known suspicious online behaviors: traditional spam \cite{Benevenuto2010Detecting}, fake review \cite{Jiang2015A}, social spam \cite{Lee2010Uncovering,Hu2014Social} and link farming \cite{Ghosh2012Understanding}.
+Thus, we should firstly try to find the essential characteristic belonging to astroturfing. Then, how to design and realize semi-automatic or automatic computer algorithm will be naturally made out to suit  different data size.
+To wrap up, from the IT perspective, we hope that the computer has the learning ability to effectively detect unknown astroturfing among big social data. This is our survey view and we will summarize the astroturfing detection and analysis research work from astroturfing feature, machine learning-based detection method, evaluation, to applications.
+
+The structure of this article is organized as follows. Section 2 will discuss the astroturfing feature. Section 3 will present learning-based astroturfing detection methods. Section 4 describes effective detection evaluations. Section 5 shows the astroturfing detection applications. Finally, the future directions are envisaged in section 6.
+
+
+%第二部分 水军特征%
+\section{Astroturfing Feature Characterization}
+\subsection{Feature in Definition}
+The group or individuals who participate in ``astroturfing'' can be called as ``astroturfer'' or ``internet water army''. It is very difficult to give a quantified and accurate definition on astroturfing. Thus, only descriptive explanations on ``astroturfing'' are given and listed as following:
+\begin{itemize}
+\item The practice of masking the sponsors of a message or organization (e.g., political, advertising, religious or public relations) to make it appear as though it originates from and is supported by a grassroots participant\footnote{\url{https://en.wikipedia.org/wiki/Internet_Water_Army}} .
+
+\item The artificial grassroots campaigns created by public relations firms \cite{Stauber1995Toxic}. Organizations that engage in astroturfing activities usually hire public relations or lobbying firms to simulate grassroots campaigns \cite{John2010Researching}. In other words, astroturfing occurs when groups of people are hired to present certain beliefs or opinions, which these people do not really possess, through various communication channels. In most cases, the hired groups and individuals support arguments or claims for their employers favor while challenging critics and denying adverse claims \cite{Cho2011Astroturfing}.
+
+\item A form of costly state falsification \cite{Lyon2004Astroturf}. Astroturfing creates falsified impressions among decision makers or the general public and achieves the goal of persuasion. Traditionally, the scope and influence of astroturfing are limited by the strength of financial support behind the effort since hiring public relation firms to generate and disseminate these false messages can be costly \cite{Hoggan2010}.
+
+\end{itemize}
+
+From these explanations on ``astroturfing'', we generalized the following feature keywords:
+
+\begin{itemize}
+\item \emph{Money Business}: if the astroturfing exists, there must be an employer give the money indirectly to the lobbying firms or directly to the grassroots.
+\item \emph{Content Effect}: any astroturfing should aim to achieve the astroturfing effect in short time, i.e., making the employer-requested topic to attract more public awareness, though posting massive content or increasing the content ranking. The content are consist of post and comments.
+\end{itemize}
+
+From IT perspective, the \emph{money business} feature is very difficult to mine, that's because lots of evidence are missed if we only rely on open Web data. While the \emph{content effect} feature can be found among public Web data.
+As a result, all the IT researches on astroturfing belong to the category of mining and utilizing the \emph{content effect} feature.
+
+
+
+
+\subsection{Feature in Suspicious Behavior Category}
+
+In behavior category of suspicious online behaviors in social network, astroturfing  has both close relation and differences with other known suspicious online behaviors: traditional spam \cite{Benevenuto2010Detecting}, fake review \cite{Jiang2015A}, social spam \cite{Lee2010Uncovering,Hu2014Social} and link farming \cite{Ghosh2012Understanding}. We make a comparison for them(See Table ~\ref{tab:Compar-Behavior}).
+
+
+\noindent
+\begin{table*}
+\caption{Comparisons Among Suspicious Online Behaviors.}
+  \label{tab:Compar-Behavior}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+     &
+\makecell{Traditional Spam}&Fake Review&Social Spam&
+\makecell{Link Farming}&Astroturfing\\ \hline
+\makecell{Main Application}&
+\makecell{Email and SMS}&
+\makecell{B2C e-commerce\\ (Amazon, Netflix),\\C2C e-commerce (Taobao)}&
+\makecell{Social Contact (Facebook,\\ Twitter, Weibo, LinkedIn)}&
+\makecell{Search Engine,\\Social Contact}&
+\makecell{B2C and C2C\\e-commerce,\\Social Contact}\\ \hline
+\makecell{Participant Type}&
+\makecell{AI Program}&
+\makecell{AI Program or Human}&
+\makecell{AI Program or Human}&
+\makecell{AI Program or Human}&
+\makecell{AI Program or Human}\\ \hline
+\makecell{Behavior Time}&
+\makecell{No Requirements}&
+\makecell{No Requirements}&
+\makecell{No Requirements}&
+\makecell{Long Time}&
+\makecell{Short Time}\\ \hline
+\makecell{Participant Visual}&
+\makecell{Not Visible}&
+\makecell{Visible}&
+\makecell{Visible}&
+\makecell{Not Visible}&
+\makecell{Visible}\\ \hline
+\makecell{Account Scale}&
+\makecell{Large}&
+\makecell{No Requirements}&
+\makecell{No Requirements}&
+\makecell{/}&
+\makecell{Large}\\ \hline
+\end{tabular}
+\end{table*}
+
+As Table~\ref{tab:Compar-Behavior} shows, five dimensions are selected for comparison.
+
+Main application refers the main carrier that suspicious online behaviors occur. The astroturfing mainly appears in B2C and C2C e-commerce application (e.g. Amazon, Netflix, Taobao), and popular social contact application (Facebook, Twitter, Weibo, LinkedIn), while traditional spam only occurs in Email or SMS.
+
+For participant type, interestingly, in order to perform requiring effect, the astroturfing executes both through AI program and human, which can be employed at online crowdsourcing platform or other online way. Similarly, the fake review, social spam and link farming also utilize AI program or human to perform.
+
+Behavior time refers participating time in a task period. For an astroturfing task, the astroturfing behaviors usually  last very short time within several hours or days to execute and  generate enough influence. While link farming behavior usually need more time months to months.
+
+Participant visual means whether the participant can be shown to common users or not. Astroturfing must expose their behavior and opinion for falsification.
+
+Operation account scale refers real number of participating application account. Usually, at least hundreds of astroturfing accounts execute an astroturfing task.
+
+Thus, the astroturfing main features from the suspicious online behavior category are that ones, which can cover those ones in fake review and social spam behaviors. This can be simply represented as follows
+\begin{equation}\label{featurecategory}
+f_{Astroturfing}\supset f_{Fake~Review}\supset f_{Social~Spam}
+\end{equation}
+Thus, we can exploit the detection approach to fake review and social spam to help detecting astroturfing.
+
+
+
+
+%第三部分%
+\section{Learning-Based Astroturfing Detection Approach}
+
+To completely portray the character of astroturfing completely, many people started to use ensemble models, which using many kinds of information to train a classifier for astroturfing detection. Mainly divided into three categories: supervised, unsupervised, semi-supervised learning.
+
+%3.1%
+\subsection{Supervised Learning-Based Astroturfing Detection}
+%3.1.1基于内容的特征% 
+\subsubsection{Content Feature Learning}
+\begin{itemize}
+  \item \emph{Expectation-Maximization(EM) Model}.
+EM model is used for text classification using labeled and unlabeled documents. A Naive Bayes classifier is firstly constructed by utilizing the existing labeled tweets. In the E-Step, this classifier is used to predict the labels of the remaining unlabeled tweets. In the M-Step, the probabilities of the word features are reestimated based on the predicted labels. Then the classifier in the E-Step is updated accordingly and is used to re-classify the tweets in the M-Step. This process continues till the number of changes in the predicted labels is below 0.01\% of the total unlabeled tweets.
+\end{itemize}
+
+%3.1.2基于行为的特征% 
+\subsubsection{Behavior Feature Learning}
+\begin{itemize}
+\item \emph{AdaBoost}.
+Adaboost is an iterative algorithm, the core idea of which is to train different classifiers (weak classifiers) for the same training set, and then combine these weak classifiers to form a stronger final classifier (strong classifier). It is achieved by changing the distribution of data, and it determines the weights of each sample according to if the classification of each sample in the training set  is correct and the accuracy of the previous overall classification. The new data set with the modified weight value will be sent to the lower classifier for training. Finally, the trained classifiers are merged to be the final decision classifier.
+
+\item \emph{K-Nearest}.
+The k-Nearest Neighbors algorithm is a non-parametric method used for classification and regression. The input consists of the k closest training examples in the feature space. In the classification phase, k is a user-defined constant, and an unlabeled vector is classified by assigning the label which is most frequent among the k training samples nearest to that query point. In the detection of astroturfing based on behavior, the goal is to distinguish between tweets receiving retweets from astroturfing accounts and tweets receiving retweets from normal accounts.
+
+Song and Lee et al.\cite{Song2015CrowdTarget} find four new retweet-based features that allow us to distinguish astroturfing tweets from others: (i) retweet time distribution,(ii) the ratio of the most dominant application, (iii) the number of unreachable retweeters, and (iv) the number of received clicks. Next, they build the classification model, k-nearest neighbors, by using the retweet-based features and evaluate it with their ground-truth dataset.
+
+\end{itemize}
+
+%3.1.3基于结构的特征% 
+\subsubsection{Structure Feature Learning}
+\begin{itemize}
+\item \emph{Support Vector Machine(SVM)}.
+Chen et al.\cite{ChenOpinion} explore the characteristics of opinion spams and spammers in a web forum to obtain some insights, including subtlety property of opinion spams, spam post ratio, spammer accounts, first post and replies, submission time of posts, activeness of threads, and collusion among spammers. And then build classifier SVM with RBF kernel to detect spammer.
+\end{itemize}
+
+%3.1.4基于结构的特征% 
+\subsubsection{Multiple-Feature Learning}
+\begin{itemize}
+\item \emph{Random Forest(RF)}. 
+Lee and Webb et al.\cite{Lee2015CharacterizingAA} propose a comprehensive analysis of astroturfing. Then trained classifier Random Forest-based classifier to detect astroturfing. They first find some valuable features such as profile features, content features and social network features. Then they computed feature values for each user in the training and testing sets, according to the previously described features. The authors selected the popular classification algorithm: Random Forest. Using the machine learning toolkit's implementation of the algorithm, they developed Random Forest-based classifier to predict whether a user is a astroturfing worker or a legitimate user.
+
+
+ \item \emph{Neural Autoencoder Decision Forest}.
+Dong et al.\cite{dong2020opinion} proposed an end-to-end trainable unified model to leverage the appealing properties of autoencoder and random forest. In this model, they use autoencoder to generate the hidden representations of the features, and take them as the input of the random forest. The entire model is trained jointly via the stochastic and differentiable decision tree model, and the decision forest generates the final prediction. 
+\end{itemize}
+
+
+
+%3.2 半监督学习%
+\subsection{Semi-Supervised Learning-Based Astroturfing Detection}
+
+In other domains, it has been found that using unlabeled data in conjunction with a small amount of labeled data can considerably improve learner accuracy compared to completely supervised methods.
+
+%3.2.1%
+\subsubsection{Content Feature Learning}
+\begin{itemize}
+\item \emph{PU-Learning Model}.
+Liu et al.\cite{Liu2003Building} propose a semi-supervised learning approach to learn a few positive examples and a set of unlabeled data, the model is named PU-Learning and achieved an F1 Score of 83.7\%.
+ 
+\item \emph{FakeGAN Model}.
+In general, the main problem with applying classification methods for detecting deceptive reviews is the lack of substantial ground truth datasets. Aghakhani et al.\cite{aghakhani2018detecting} propose FakeGAN, a first system which using semi-supervised neural network-based learning methods for detecting deceptive fraudulent reviews. Unlike standard GAN models which have a single Generator and Discriminator model, FakeGAN uses two discriminator models and one generative model. The generator is modeled as a stochastic policy agent in reinforcement learning (RL), and the discriminators use Monte Carlo search algorithm to estimate and pass the intermediate action-value as the RL reward to the generator.
+\end{itemize}
+
+
+%3.2.2%
+\subsubsection{Behavior Feature Learning}
+\begin{itemize}
+\item \emph{C{4.5}}.
+For the given data set, each tuple can be described by a set of attribute values, and each tuple belongs to a class in a mutually exclusive category. The goal of C4.5 is to find a mapping from attribute values to categories by learning, and this mapping can be used to categorize new entities with unknown classifications.
+
+In the detection of astroturfing, Xu et al.\cite{Xu2015RevealingCA} proposed an analysis of the entire ecosystem that underlies the astroturfing attacks from multiple perspectives, and the behavioral discrepancies between the astroturfing accounts and the legitimate users in community QA. Then they use the Profile attributes, QA attributes and SN attributes of users as feature to train a classifier (C4.5) for detecting the astroturfing.
+
+  \end{itemize}
+
+
+
+%3.3 无监督学习%
+\subsection{Unsupervised Learning-based and Other Astroturfing Detection}
+
+Because of the difficulty of producing accurately labeled datasets of astroturfing, the use of supervised learning is not always applicable. A novel unsupervised text mining model was developed.
+
+\subsubsection{Content Feature Learning}
+\
+\begin{itemize}
+  \item \emph{LDA-based model}. 
+Latent Dirichlet Allocation(LDA) is a document theme generation model and it is used to analyze the topics that are discussed by each cluster of users. It takes a corpus of documents as in-put, and outputs K topics, each of which is a list words sorted by the strength of their association with that topic.
+
+	  Dong et al. \cite{dong2018unsupervised} propose an unsupervised topic-sentiment joint probabilistic model (UTSJ) based on Latent Dirichlet Allocation (LDA) model. This model first employs Gibbs sampling algorithm to approximate parameters of maximum likelihood function offline and obtain topic-sentiment joint probabilistic distribution vector for each review. Secondly, a Random Forest classifier and a SVM (Support Vector Machine) classifier are trained offline, respectively. Experimental results on real-life datasets show that UTSJ model is better than baseline models.
+	 
+  \item \emph{MF Model}.
+A matrix factorization model is employed to learn lexicon information from external spam resources. Instead of learning knowledge at word-level, we propose to capture the external knowledge from topic-level.  The proposed method is built on the orthogonal nonnegative matrix tri-factorization model (ONMTF). The basic idea is to cluster data instances based on distribution of features, and cluster features according to the distribution of data instances. The ONMTF can be formulated by optimizing:
+      \begin{equation}\label{ONMTF}
+        \begin{split}
+        &\min \limits_{U,H,V\geq0} \,\, \Arrowvert X-UHV^T \Arrowvert _F^2,\\
+        &s.t. \quad U^TU=I,\ V^TV=I
+        \end{split}
+      \end{equation} where $X$ is the content matrix, and $U$ and $V$ are nonnegative matrices indicating low-dimensional representations of words and users, respectively. $m$ is the size of vocabulary, $c$ is the number of classes, $d$ is the number of users. $H$ provides a condensed view of $X$. The orthogonal and nonnegative conditions of U and V provide a hard assignment of class label to the words and users. With the ONMTF model, we project the original content information from the other media into a latent topic space. By adding a topic-level least squares penalty to the ONMTF.
+
+  \item \emph{Semantic Language Model(SLM)}.
+SLM is a novel unsupervised text mining model which was developed and integrated into a semantic language model for detecting untruthful reviews by Raymond \cite{Lau2011Text}. They create an approximation method for calculating the degree of untruthfulness for reviews based on the duplicate identification results by estimating the overlap of semantic contents among reviews using a Semantic Language Model. In addition to performing unsupervised review spam detection, they also developed a high-order concept of association mining to extract context-sensitive concept association knowledge. Their model follows the assumed logic that if the semantic content of a review is close to those of another review, it is likely that the two reviews are duplicates and thus examples of spam reviews. For their experiment, they built a dataset from real-world reviews collected from Amazon and achieve an AUC of 0.9987.
+
+\end{itemize}
+
+
+
+\subsubsection{Structure Feature Learning}
+\
+
+In the detection of astroturfing based on structure, Fakhraei and Foulds \cite{Fakhraei2015Collective} proposed a method to detect spammers in multi-relational social networks, they model the social network as a time-stamped multi-relational graph where vertices represent users, and edges represent different activities between them. First, extract graph structure features for each of the relations. Second, consider the activity sequence of each user across these relations and extract k-gram features and employ mixtures of Markov models to label spammers. Finally, propose a statistical relational model based on hinge-loss Markov random fields to perform collective reasoning using signals from an abuse reporting system in the social network.
+
+
+\subsubsection{Graph-Model Based}
+\
+
+Numerous methods are based on graph models, especially the structure based ways in the previous paper. \cite{Fakhraei2015Collective, Ghosh2012Understanding, Lee2010Uncovering} The graph-model based technology can be widely used in the detection of fake review, social spam \cite{Lee2010Uncovering,Hu2014Social}and link farming \cite{Ghosh2012Understanding} etc.
+
+Ratkiewicz and Conover et al. \cite{Ratkiewicz2011Detecting} put forward a machine learning framework which combines topological, content-based and crowdsourced features of information diffusion networks on Twitter to detect the early stages of viral spreading of political misinformation. To represent the flow of information through the Twitter community, a directed graph is constructed, whose nodes are individual user accounts and edges are retweet and mention operation.
+
+Liu et al. \cite{liu2019opinion} propose a complex probabilistic graph classification approach to address the problem of opinion astroturfing detection. To obtain an initial effective estimation for the nodes (reviews, authors, and products) in the graph, they first train a neural network with attention mechanism to learn the multimodal embedded representation of nodes by leveraging both textual and rich features. Then based on the node prior computation, a heterogeneous graph is constructed to capture the relationships among different kinds of nodes, and the beliefs are further updated through iterative message propagation. 
+
+Due to the past astroturfing detection techniques only consider one or two types of astroturfing entities such as review, reviewer, group of reviewers or product. Noekhah \cite{noekhah2020opinion} proposed a novel graph-based model called “Multi-iterative Graph-based opinion Spam Detection” (MGSD). The model is able to evaluate the ‘spamicity’ effects of entities more efficiently given it applies a novel multi-iterative algorithm which considers different sets of factors to update the spamicity score of entities. Besides, to enhance the accuracy of the MGSD detection model, a higher number of existing weighted features along with the novel proposed features from different categories were selected using a combination of feature fusion techniques and machine learning (ML) algorithms. The output of the MGSD model showed that the feature selection and feature fusion techniques showed a remarkable improvement in detecting astroturfing. 
+
+
+
+
+%第四部分：评价指标%
+\section{Evaluation Criterion}
+There are many metrics that can be used to evaluate the performance of the algorithm for spammer detection. Such as Accuracy, Precision, Recall, F1 Score, AUROC, FPR. All these metrics are used for classification models. 
+
+
+\subsubsection{Precision, Recall and F1 Score}
+\
+
+Precision and Recall are frequently used as indicators for classification. Precision measures the fraction of examples classified as positive that are truly positive. Recall measures the fraction of positive examples that are correctly labeled. And F1 Score is the weighted harmonic mean of Precision and Recall, it tradeoff the Precision and Recall.
+
+\[Precision = \frac{TP}{TP+FP}\]
+\[Recall = \frac{TP}{TP+FN}\]
+\[F1 = \frac{2\times Precision \times Recall}{Precision + Recall}\]
+
+TP means true positives (i.e. items correctly labeled as belonging to the positive class), FP means false positives (i.e. items incorrectly labeled as belonging to the positive class), FN means false negatives (i.e. items which were not labeled as belonging to the positive class but should have been).
+
+In the area of spammer detection, many approach used Precision, Recall and F1 Score as the appropriate metric to measure the performance of models, such as 
+	Hu \cite{Hu2013Social}, 
+	%Lee (2013) \cite{Lee2013Crowdturfers}, 
+	Hu \cite{Hu2014LeveragingKA}, 
+	Hu \cite{Hu2014Online}, 
+	%Chen (2015) \cite{ChenOpinion}, 
+	%Lee (2015) \cite{Lee2015CharacterizingAA}, 
+	Sedhai \cite{Sedhai2015HSpam14}, 
+	Liu  \cite{Liu2016PayMA}, 
+	Dong  \cite{dong2018unsupervised}, 
+	Liu 	\cite{liu2018unified}, 
+	%Zhang (2018) \cite{zhang2018dri} , 
+	Liu  \cite{liu2019opinion}, 
+	Dong  \cite{dong2020opinion} and  
+	You \cite{you2020integrating}.
+
+
+\subsubsection{AUROC and AUPR}
+\
+
+AUROC means the area under the ROC, it draws how TPR (True Positive Rate) changes according to the changes of FPR (False Positive Rate). Among them, The FPR measures the fraction of negative examples that are misclassified as positive. The TPR measures the fraction of positive examples that are correctly labeled. AUPR means the area under the Precision-Recall.
+In the work of Fakhraei \cite{Fakhraei2015Collective}, in order to avoid over-optimistic estimates of the PR curve and ROC, Fakhraei used the AUROC and AUPR to estimate the performance of their method. But in the work of Song \cite{Song2015CrowdTarget} and Wang \cite{Wang2015DetectingIH}, they only use the AUROC as evaluate metric.
+
+\subsubsection{TPR, FPR and FNR}
+\
+
+TRP and FPR havee been explained above. FNR indicates the proportion of a sample that is classified as negative but is actually positive. In the actual experiment, we hope the TPR is as large as possible, while the FPR and FNR are as small as possible.
+
+\[TPR = \frac{TP}{TP+FN}\]
+\[FPR = \frac{FP}{FP+TN}\]
+\[FNR = \frac{FN}{TP+FN}\]
+
+In their works, Lee et al.\cite{Lee2015CharacterizingAA}, Barushka \cite{barushka2020spam} and Lee \cite{Lee2013Crowdturfers}, they both used the FPR and FNR as metrics to evaluate the classifier for astroturfing detection. In the work of Sun \cite{Sun2013SyntheticRS} and Xu \cite{Xu2015RevealingCA}, both of them are used the TPR and FPR as measures to evaluate the detection performance of classifier.
+
+\subsubsection{Accuracy and ER}
+\
+
+Accuracy measures the fraction of examples that correctly labeled account for all examples. But the ER (Error Rate) is measures the fraction of misclassified examples over all examples. They are also the most used evaluation metric.
+\[Accuracy = \frac{TP+TN}{P+N}\]
+\[ER = \frac{FP+FN}{P+N}\]
+
+ Sun \cite{Sun2013SyntheticRS} and Wang \cite{Wang2014Man} are used the ER to evaluate the detection performance of method they proposed. But in work of Lee \cite{Lee2015CharacterizingAA}, 
+	Yang \cite{Yang2015PennyFY}, 
+	Li \cite{li2017document}, 
+	Zhang \cite{zhang2018dri}, 
+	Aghakhani \cite{aghakhani2018detecting}, 
+	Dhingra \cite{dhingra2019spam}, 
+	You \cite{you2020integrating} and 
+	Dong \cite{dong2020opinion}, they are both used accuracy as measure to evaluate the classifier they build.
+
+
+%第五部分%
+\section{Applications}
+Astroturfing can disrupt the normal order of the network and bring many negative effects to society and people's life. It is necessary to design schemes to help normal users, administrators, or even law enforcers quickly identify potential astroturfing. Astroturfing detection can help users distinguish truth from falsehood and get the information that they really need. In social networks, astroturfing detection can be used for various applications; here we will address some typical applications, such as detection of astroturfing in social networks, astroturfing account recognition, and deceptive reviews identification.
+
+\subsection{Single Astroturfing Detection}
+\begin{itemize}
+  \item \emph{Detecting Astroturfing in Twitter}. 
+Lee and Webb et al.\cite{Lee2015CharacterizingAA} present a comprehensive analysis of astroturfing on Fiverr.com and Twitter, and find some valuable features such as profile features, activity features, content features, social network features, personality features and temporal features. Then they compute feature values for each user in the training and testing sets, and they train the classifier (SVM-based classifier and Random Forest-based classifier) to detect astroturfing on Fiverr.com and Twitter.
+
+\item \emph{Automatic Review Synthesis Model}.
+Sun and Morales et al. \cite{Sun2013SyntheticRS} leveraged the difference of semantic flows between synthetic and truthful reviews to identify the review spam, they used SVM and Naive Bayes as classifiers to tell if one review is truthful or synthetic. They develop a model to automatically generate positive reviews by mixing up those existing reviews.
+\end{itemize}
+
+
+
+
+\subsection{Group Astroturfing Detection}
+\begin{itemize}
+	\item \emph{Real-Time Astroturfing Detection System}.
+Detecting astroturfing through establishing classifier is a typical application for astroturfing detection. Chen et al. \cite{Chen2013BattlingTI} discuss fundamental architecture and design of a detection system that can identify malicious behavior and potential paid posters in real time. The goal of the system is to identify potential paid posters and locate their user IDs during the process of collecting information. This system will automatic collect data from different resources/websites and generate reports of the behavior of potential paid posters. The system will provide valuable information for the analysts and online users to differentiate on various aspects.
+	
+	\item \emph{Multi-agent System}.
+Analyze the distribution and behavior characteristics of astroturfing is also helpful to better understanding and monitoring the astroturfing accounts. The work investigated the behavior patterns and strategies of astroturfing in online forums\cite{Zeng2014Behavior}. They construct a multi-agent system and conduct an experiment using the real world dataset of online forum to study the impact factors of the astroturfing' ability to exert influence. They found that Internet Water Army dynamically adjusts their behavior strategy to maximize their influence and the effectiveness of strategy of Internet Water Army is closely related to the features of the users.
+	
+\end{itemize}
+
+
+%第六部分 总结和展望% 
+\section{Conclusion}
+Although numerous efforts have been made in astroturfing detection, there are still many potential future challenges, and some new open problems require further study. Here, we address some possible future research challenges on the astroturfing detection problem:
+
+\begin{itemize}
+\item \emph{Crossing Domain}.
+Detection of astroturfing involves a number of areas and how to apply the model trained in the source field to the target field is an important research direction. Li et al. trained the model in hotel domain, and tested in restaurant and doctor domains, but experimental results showed that the accuracy and F1 score droped seriously compared with the performance in the same filed\cite{li2014towards}. So more in-depth exploration and research are needed for cross-domain deceptive opinion astroturfing detection\cite{ren2019learning}.
+
+\item \emph{Missing Datasets}.
+Public astroturfing generally works underground, and the available dataset are not enough for researching their behavior. Thus, the research work for the astroturfing detection is difficult to be carried out.
+
+\item \emph{Complexity of the Internet}.
+The astroturfing work is always cross platform, cross channel, and have numerous sock puppets. This makes their behavior information become fragmented, and difficult to link to each other.
+
+\end{itemize}
+
+
+
+
+%致谢%
+\section*{Acknowledgments}
+
+
+The author is grateful to Dr. XXX and Dr. XXX for their help with the preparation in this paper.
+
+
+
+% 参考文献
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\newpage
+
+\section{Biography}
+%\vspace{11pt}
+
+\vspace{-33pt}
+\begin{IEEEbiography}[{\includegraphics[width=1in, height=1.25in,clip,keepaspectratio]{avatar.png}}]{XXX} 
+received the bachelor's in XXX from Beijing Jiaotong Univeresity in 2022. He is currently a Ph.D. candidate of XXX in Beijing Jiaotong University. His research interests are XXXX.
+\end{IEEEbiography}
+
+\vspace{11pt}
+
+\vfill
+
+
+
+\end{document}
+
+
