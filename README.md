@@ -41,9 +41,9 @@
 | M502023B | [机器学习](./研究生课程资料/机器学习) | 秋季学期 | 硕 | :blue_book: | :page_facing_up: |  |
 | M502019B | [深度学习](./研究生课程资料/深度学习) | 暑假小学期/秋季学期 | 博、硕 | :blue_book: | :page_facing_up: | |
 | M502073B | [高级软件测试技术](./研究生课程资料/高级软件测试技术) | 秋季学期 | 硕 | :blue_book: | :page_facing_up: | |
-| 公共课 |      [学术能力写作](./研究生课程资料/学术能力写作)      | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
-| 公共课 |        [专业英语](./研究生课程资料/专业英语)        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
-| 公共课 |       [自然辩证法](./研究生课程资料/自然辩证法)       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
+| C402004B |      [学术能力写作](./研究生课程资料/学术能力写作)      | 秋季学期 |  硕  |   :blue_book:    |                  | :white_check_mark: |
+| C402019B |        [专业英语](./研究生课程资料/专业英语)        | 秋季学期 |  硕  |                  | :page_facing_up: | :white_check_mark: |
+| A209004B |       [自然辩证法](./研究生课程资料/自然辩证法)       | 秋季学期 |  硕  |                  |                  | :white_check_mark: |
 | A213001B | [知识产权](./研究生课程资料/知识产权) | 秋季学期 | 硕 | :blue_book: | | :white_check_mark: |
 | C308101B | [随机过程](./研究生课程资料/随机过程) | 秋季学期 | 博、硕 | :blue_book: | :page_facing_up: | :white_check_mark: |
 | 公共课 | 中国特色社会主义道路 |  | （待更新） |  |  | |
