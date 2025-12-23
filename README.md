@@ -58,29 +58,6 @@
 
 - [博士生资格考试历年试题](./博士生资格考试资料)
 
-## 博士申请经验分享
-
-- [北京交通大学计算机学院博士申请经验专栏（含计科、网安、信通、控制、软工、信安、量子技术等专业）](https://blog.csdn.net/m0_38068876/category_11810865.html)
-- [北京交通大学研究生院官网](https://gs.bjtu.edu.cn/)
-- [~~北京交通大学计算机学院官网（旧版，已下线）~~](https://scit.bjtu.edu.cn/)
-- [北京交通大学计算机学院官网（新版）](https://cs.bjtu.edu.cn/)
-- [北京交通大学研究生导师在线（计算机学院导师一览表）](https://aa.bjtu.edu.cn/discipline/tutor_show/?college=02)
-
-## 保研考研经验分享
-
-- [北京交通大学计算机学院推免经验分享（含夏令营、九推经验分享）](https://blog.csdn.net/m0_38068876/category_11877933.html)
-- [北京交通大学计算机学院考研复试经验分享](https://blog.csdn.net/m0_38068876/category_12110003.html)
-- [计算机相关专业考研复试经验分享](https://blog.csdn.net/m0_38068876/category_12147381.html)
-- [北京交通大学研究生院官网](https://gs.bjtu.edu.cn/)
-- [北京交通大学计算机学院官网](https://scit.bjtu.edu.cn/)
-- [北京交通大学博士研究生报名系统](https://gsadmission.bjtu.edu.cn/phd/login.html)
-- [北京交通大学研究生导师在线（计算机学院导师一览表）](https://aa.bjtu.edu.cn/discipline/tutor_show/?college=02)
-
-## Bilibili视频自学资料
-
-- [C语言入门-翁凯](./Bilibili视频自学资料/C语言入门-翁凯)
-- [C++自学笔记-黑马程序员](./Bilibili视频自学资料/CPP自学笔记-黑马程序员)
-- [Python学习笔记-黑马程序员](./Bilibili视频自学资料/Python学习笔记-黑马程序员)
 
 ## 联系反馈
 
